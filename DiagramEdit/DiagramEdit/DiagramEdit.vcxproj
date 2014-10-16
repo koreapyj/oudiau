@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3C4286C-FD52-4837-BE68-5741C667760F}</ProjectGuid>
+    <RootNamespace>DiagramEdit</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/DiagramEdit.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\libs\OuMfc;..\..\libs\OuLib;..\..\libs\DcDraw;..\ConvDedFile\interface;ConvFile;ConvFile\03;DedRosenFileData;DedRosenFileData\EditCmd;entDed;entDgr;JikokuhyouCsv;Print;ViewDiagram;ViewEki;ViewJikokuhyou;ViewRessyasyubetsu;ViewRosen;ViewComment;WinDia;C:\Program Files\HTML Help Workshop\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/DiagramEdit.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation />
+      <BrowseInformationFile>.\Debug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Version.lib;htmlhelp.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)oudia.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\HTML Help Workshop\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\bin/DiagramEdit.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin/DiagramEdit.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.;..\..\libs\OuMfc;..\..\libs\OuLib;..\..\libs\DcDraw;..\ConvDedFile\interface;ConvFile;ConvFile\03;DedRosenFileData;DedRosenFileData\EditCmd;entDed;entDgr;JikokuhyouCsv;Print;ViewDiagram;ViewEki;ViewJikokuhyou;ViewRessyasyubetsu;ViewRosen;ViewComment;WinDia;C:\Program Files\HTML Help Workshop\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/DiagramEdit.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat />
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Version.lib;htmlhelp.lib;imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)oudia.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files\HTML Help Workshop\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\bin/DiagramEdit.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAboutBoxGpl.cpp" />
+    <ClCompile Include="WinDia\CconvWinDia.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CDcdFreeLine_StyleSample.cpp" />
+    <ClCompile Include="CDedStatusBar.cpp" />
+    <ClCompile Include="CDiagramEditDoc.cpp" />
+    <ClCompile Include="CDiagramEditDoctmpl.cpp" />
+    <ClCompile Include="WinDia\CDlgDiaSaveSelect.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgOuJikokuhyouCsvExport.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="CDlgProgress.cpp" />
+    <ClCompile Include="CMainFrame.cpp" />
+    <ClCompile Include="CRfEditCmdHolder.cpp" />
+    <ClCompile Include="DiagramEdit.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ConvJikokuhyouCsv\CconvJikokuhyouCsv.cpp" />
+    <ClCompile Include="DedRosenFileData\CconvCdDedDispProp.cpp" />
+    <ClCompile Include="DedRosenFileData\CconvCDedRosenFileData.cpp" />
+    <ClCompile Include="DedRosenFileData\CdDedDispProp.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Comment.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_DedRosenFileDataProp.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Dia.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_DiaProp.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Eki.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressya.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressyasyubetsu.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_RessyasyubetsuSwap.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Rosen.cpp" />
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_RosenFileData.cpp" />
+    <ClCompile Include="ConvFile\CConvFileDll.cpp" />
+    <ClCompile Include="entDed\CconvCentDed.cpp" />
+    <ClCompile Include="entDed\CdDedJikan.cpp" />
+    <ClCompile Include="entDed\CdDedJikoku.cpp" />
+    <ClCompile Include="entDed\CDedRessyaSoater.cpp" />
+    <ClCompile Include="entDed\CDedRessyaSoater_Bikou.cpp" />
+    <ClCompile Include="entDed\CDedRessyaSoater_Ekiatsukai.cpp" />
+    <ClCompile Include="entDed\CDedRessyaSoater_Ressyasyubetsu.cpp" />
+    <ClCompile Include="entDed\CentDedDia.cpp" />
+    <ClCompile Include="entDed\CentDedDiaCont.cpp" />
+    <ClCompile Include="entDed\CentDedEkiCont.cpp" />
+    <ClCompile Include="entDed\CentDedEkiJikoku.cpp" />
+    <ClCompile Include="entDed\CentDedRessya.cpp" />
+    <ClCompile Include="entDed\CentDedRessya_EkijikokuModifyOperation2.cpp" />
+    <ClCompile Include="entDed\CentDedRessyaCont.cpp" />
+    <ClCompile Include="entDed\CentDedRessyasyubetsuCont.cpp" />
+    <ClCompile Include="entDed\CentDedRosen.cpp" />
+    <ClCompile Include="entDed\CRessyaContUnifier.cpp" />
+    <ClCompile Include="entDgr\CDedRessyaSoater_Transfer.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrDia.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrEki.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrEkiCont.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrRessya.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrRessyasen.cpp" />
+    <ClCompile Include="entDgr\CentDedDgrRessyasenCont.cpp" />
+    <ClCompile Include="entDgr\CEnumRessyasen.cpp" />
+    <ClCompile Include="ViewEki\CDlgEkiProp.cpp" />
+    <ClCompile Include="ViewEki\CEkiDoc.cpp" />
+    <ClCompile Include="ViewEki\CEkiView.cpp" />
+    <ClCompile Include="ViewEki\CPropEditUi_Eki.cpp" />
+    <ClCompile Include="ViewEki\CWndDcdGridEki.cpp" />
+    <ClCompile Include="ViewEki\EkiColSpec\CdEkiXColSpecCont.cpp" />
+    <ClCompile Include="ViewEki\EkiColSpec\CdEkiYColSpecCont.cpp" />
+    <ClCompile Include="ViewDiagram\CaDcdDiagram_PageSelector.cpp" />
+    <ClCompile Include="ViewDiagram\CCalcCentDedDgrRessyasenOfPoint.cpp" />
+    <ClCompile Include="ViewDiagram\CDcdDiagram.cpp" />
+    <ClCompile Include="ViewDiagram\CDcdDiagram2.cpp" />
+    <ClCompile Include="ViewDiagram\CDcdDiagram_CStopMarkDraw.cpp" />
+    <ClCompile Include="ViewDiagram\CDedDiagramDoc.cpp" />
+    <ClCompile Include="ViewDiagram\cdeddiagramview.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDlgDiagramViewProp.cpp" />
+    <ClCompile Include="ViewDiagram\CRessyajouhouDraw.cpp" />
+    <ClCompile Include="ViewDiagram\CRessyasenDraw.cpp" />
+    <ClCompile Include="ViewDiagram\CWndDiagram.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CDlgEkijikokuProp.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CDlgJikokuhyouViewProp.cpp" />
+    <ClCompile Include="ViewJikokuhyou\cdlgmodifyekijikokuoperation2.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgRessyaProp.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CJikokuhyouDoc.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CJikokuhyouView.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CPropEditUI_Ekijikoku.cpp" />
+    <ClCompile Include="ViewJikokuhyou\CPropEditUi_Ressya.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CCellBuilder.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Renzoku.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Ressyahensyu.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkStateMachine.cpp" />
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWndJikokuhyou.cpp" />
+    <ClCompile Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpecCont.cpp" />
+    <ClCompile Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpecCont.cpp" />
+    <ClCompile Include="Print\CconvCdPrintPageProp.cpp" />
+    <ClCompile Include="Print\CDlgPrintPageProp.cpp" />
+    <ClCompile Include="Print\CdPrintPageProp.cpp" />
+    <ClCompile Include="ViewRosen\CDlgDiaList.cpp" />
+    <ClCompile Include="ViewRosen\CDlgDiaProp.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenCreateSubRosen.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenfileInsert.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_Diagram.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_FontColor.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_Rosen.cpp" />
+    <ClCompile Include="ViewRosen\CDlgRosenView.cpp" />
+    <ClCompile Include="ViewRosen\CRosenViewTreeCtrl.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CDlgRessyasyubetsuProp.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CRessyasyubetsuDoc.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CRessyasyubetsuView.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CWndDcdGridRessyasyubetsu.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpecCont.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpecCont.cpp" />
+    <ClCompile Include="ViewRessyasyubetsu\CPropEditUi_Ressyasyubetsu.cpp" />
+    <ClCompile Include="ViewComment\CDedCommentDoc.cpp" />
+    <ClCompile Include="ViewComment\CDedCommentView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiagramEdit.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAboutBoxGpl.h" />
+    <ClInclude Include="WinDia\CconvWinDia.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CDcdFreeLine_StyleSample.h" />
+    <ClInclude Include="CDedStatusBar.h" />
+    <ClInclude Include="CDiagramEditDoc.h" />
+    <ClInclude Include="CDiagramEditDoctmpl.h" />
+    <ClInclude Include="WinDia\CDlgDiaSaveSelect.h" />
+    <ClInclude Include="ViewJikokuhyou\CDlgOuJikokuhyouCsvExport.h" />
+    <ClInclude Include="CDlgProgress.h" />
+    <ClInclude Include="CMainFrame.h" />
+    <ClInclude Include="CRfEditCmdHolder.h" />
+    <ClInclude Include="DiagramEdit.h" />
+    <ClInclude Include="IfProgress.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="ConvJikokuhyouCsv\CconvJikokuhyouCsv.h" />
+    <ClInclude Include="DedRosenFileData\CconvCdDedDispProp.h" />
+    <ClInclude Include="DedRosenFileData\CconvCDedRosenFileData.h" />
+    <ClInclude Include="DedRosenFileData\CdDedDispProp.h" />
+    <ClInclude Include="DedRosenFileData\CDedRosenFileData.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Comment.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_DedRosenFileDataProp.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Dia.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_DiaProp.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Eki.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressya.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressyasyubetsu.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_RessyasyubetsuSwap.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Rosen.h" />
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_RosenFileData.h" />
+    <ClInclude Include="ConvFile\CaByteBuffer_string.h" />
+    <ClInclude Include="ConvFile\CaByteBuffer_vector.h" />
+    <ClInclude Include="ConvFile\CConvFileDll.h" />
+    <ClInclude Include="..\ConvDedFile\interface\ConvFile2Dll.h" />
+    <ClInclude Include="..\ConvDedFile\interface\IfByteBuffer.h" />
+    <ClInclude Include="..\ConvDedFile\interface\IfConvFile.h" />
+    <ClInclude Include="entDed\CconvCentDed.h" />
+    <ClInclude Include="entDed\CdDedJikan.h" />
+    <ClInclude Include="entDed\CdDedJikoku.h" />
+    <ClInclude Include="entDed\CdDedJikokuOrder.h" />
+    <ClInclude Include="entDed\CDedRessyaSoater.h" />
+    <ClInclude Include="entDed\CDedRessyaSoater_Bikou.h" />
+    <ClInclude Include="entDed\CDedRessyaSoater_Ekiatsukai.h" />
+    <ClInclude Include="entDed\CDedRessyaSoater_Ressyasyubetsu.h" />
+    <ClInclude Include="entDed\CentDed.h" />
+    <ClInclude Include="entDed\CentDedDia.h" />
+    <ClInclude Include="entDed\CentDedDiaCont.h" />
+    <ClInclude Include="entDed\CentDedEki.h" />
+    <ClInclude Include="entDed\CentDedEkiCont.h" />
+    <ClInclude Include="entDed\CentDedEkiJikoku.h" />
+    <ClInclude Include="entDed\CentDedRessya.h" />
+    <ClInclude Include="entDed\CentDedRessya_EkijikokuModifyOperation2.h" />
+    <ClInclude Include="entDed\CentDedRessyaCont.h" />
+    <ClInclude Include="entDed\CentDedRessyasyubetsu.h" />
+    <ClInclude Include="entDed\CentDedRessyasyubetsuCont.h" />
+    <ClInclude Include="entDed\CentDedRosen.h" />
+    <ClInclude Include="entDed\CRessyaContUnifier.h" />
+    <ClInclude Include="entDgr\CDedRessyaSoater_Transfer.h" />
+    <ClInclude Include="entDgr\CentDedDgrDia.h" />
+    <ClInclude Include="entDgr\CentDedDgrEki.h" />
+    <ClInclude Include="entDgr\CentDedDgrEkiCont.h" />
+    <ClInclude Include="entDgr\CentDedDgrEkijikoku.h" />
+    <ClInclude Include="entDgr\CentDedDgrRessya.h" />
+    <ClInclude Include="entDgr\CentDedDgrRessyasen.h" />
+    <ClInclude Include="entDgr\CentDedDgrRessyasenCont.h" />
+    <ClInclude Include="entDgr\CentDedDgrRessyasyubetsu.h" />
+    <ClInclude Include="entDgr\CEnumRessyasen.h" />
+    <ClInclude Include="ViewEki\CDlgEkiProp.h" />
+    <ClInclude Include="ViewEki\CEkiDoc.h" />
+    <ClInclude Include="ViewEki\CEkiView.h" />
+    <ClInclude Include="ViewEki\CPropEditUi_Eki.h" />
+    <ClInclude Include="ViewEki\CWndDcdGridEki.h" />
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiXColSpec.h" />
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiXColSpecCont.h" />
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiYColSpec.h" />
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiYColSpecCont.h" />
+    <ClInclude Include="ViewEki\EkiColSpec\EkiColSpec.h" />
+    <ClInclude Include="ViewDiagram\CaDcdDiagram_PageSelector.h" />
+    <ClInclude Include="ViewDiagram\CCalcCentDedDgrRessyasenOfPoint.h" />
+    <ClInclude Include="ViewDiagram\CDcdDiagram.h" />
+    <ClInclude Include="ViewDiagram\CDcdDiagram2.h" />
+    <ClInclude Include="ViewDiagram\CDcdDiagram_CStopMarkDraw.h" />
+    <ClInclude Include="ViewDiagram\CDedDiagramDoc.h" />
+    <ClInclude Include="ViewDiagram\cdeddiagramview.h" />
+    <ClInclude Include="ViewDiagram\CDlgDiagramViewProp.h" />
+    <ClInclude Include="ViewDiagram\CRessyajouhouDraw.h" />
+    <ClInclude Include="ViewDiagram\CRessyasenDraw.h" />
+    <ClInclude Include="ViewDiagram\CWndDiagram.h" />
+    <ClInclude Include="ViewJikokuhyou\CDlgEkijikokuProp.h" />
+    <ClInclude Include="ViewJikokuhyou\CDlgJikokuhyouViewProp.h" />
+    <ClInclude Include="ViewJikokuhyou\cdlgmodifyekijikokuoperation2.h" />
+    <ClInclude Include="ViewJikokuhyou\CDlgRessyaProp.h" />
+    <ClInclude Include="ViewJikokuhyou\CJikokuhyouDoc.h" />
+    <ClInclude Include="ViewJikokuhyou\CJikokuhyouView.h" />
+    <ClInclude Include="ViewJikokuhyou\CPropEditUI_Ekijikoku.h" />
+    <ClInclude Include="ViewJikokuhyou\CPropEditUi_Ressya.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CCellBuilder.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Renzoku.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Ressyahensyu.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkStateMachine.h" />
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWndJikokuhyou.h" />
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpec.h" />
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpecCont.h" />
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpec.h" />
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpecCont.h" />
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\JikokuhyouColSpec.h" />
+    <ClInclude Include="Print\CconvCdPrintPageProp.h" />
+    <ClInclude Include="Print\CDlgPrintPageProp.h" />
+    <ClInclude Include="Print\CdPrintPageProp.h" />
+    <ClInclude Include="ViewRosen\CDlgDiaList.h" />
+    <ClInclude Include="ViewRosen\CDlgDiaProp.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenCreateSubRosen.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenfileInsert.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_Diagram.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_FontColor.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_Rosen.h" />
+    <ClInclude Include="ViewRosen\CDlgRosenView.h" />
+    <ClInclude Include="ViewRosen\CRosenViewTreeCtrl.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CDlgRessyasyubetsuProp.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CRessyasyubetsuDoc.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CRessyasyubetsuView.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CWndDcdGridRessyasyubetsu.h" />
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpec.h" />
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpecCont.h" />
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpec.h" />
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpecCont.h" />
+    <ClInclude Include="ViewRessyasyubetsu\CPropEditUi_Ressyasyubetsu.h" />
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\RessyasyubetsuColSpec.h" />
+    <ClInclude Include="ViewComment\CDedCommentDoc.h" />
+    <ClInclude Include="ViewComment\CDedCommentView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CDiagramEditDoc.ico" />
+    <Image Include="res\DiagramEdit.ico" />
+    <Image Include="res\idr_comment.ico" />
+    <Image Include="res\idr_dgr.ico" />
+    <Image Include="res\idr_docv.ico" />
+    <Image Include="res\idr_eki.ico" />
+    <Image Include="res\idr_jikoku.ico" />
+    <Image Include="res\tb_diagram.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\tree_ros.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DiagramEdit.rc2" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DiagramEdit.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\DcDraw\DcdCd\DcdCd.vcxproj">
+      <Project>{9fc94ba3-a5bd-4029-893d-a96136563f08}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\DcDraw\DcdGrid\DcdGrid.vcxproj">
+      <Project>{52b8fc25-002c-4dd0-84bc-94588e72dc3e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\DcDraw\DcdGrid\WndDcdGrid3\WndDcdGrid3.vcxproj">
+      <Project>{bf5495d1-00d4-4a8a-b418-a7218a708dcc}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\DcDraw\DcDrawMfc\DcDrawMfc.vcxproj">
+      <Project>{75d5eb9d-1b29-45e6-98e9-98d02f38cc72}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\DcDraw\DcDraw\DcDraw.vcxproj">
+      <Project>{755f8ea7-1b21-4896-8b5e-adfe0ea11032}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\DcDraw\WinUtil\WinUtil.vcxproj">
+      <Project>{839c4e93-7f73-4c47-9fe5-4cb82e75d98c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\dir\dir.vcxproj">
+      <Project>{6771b838-7fa5-4592-9dfb-1ca552ca6ea3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\logmsg\logmsg.vcxproj">
+      <Project>{ddc783a9-bf89-4c80-ad50-6a0bdee4e198}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\Str\CsvDocument\CdCsvDocument.vcxproj">
+      <Project>{eefbef95-d7a4-4e84-9410-412abf2696b6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\Str\OUPROPERTIESTEXT\ErrorInfo\ErrorInfo.vcxproj">
+      <Project>{de2dbcb3-3f14-4fa2-a842-80b2ca47a519}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\Str\OuPropertiesText\OuPropertiesText.vcxproj">
+      <Project>{8cf84999-6cf1-4730-bb9d-e6be1e2a680c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuLib\Str\Str.vcxproj">
+      <Project>{6a8cde73-27fd-4ce2-a206-faa901383a73}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuMfc\FrameLeftPane\FrameLeftPane.vcxproj">
+      <Project>{18ff0b35-a665-4ce8-8335-6a50b0a095cf}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuMfc\Hidemdi\Hidemdi.vcxproj">
+      <Project>{2d70bd74-4938-41d5-803e-4d7c7a46066f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuMfc\MfcUtil\MfcUtil.vcxproj">
+      <Project>{ff34e8b5-402e-48ab-8ac3-e7df42b2998f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuMfc\OuDlg\OuDlg.vcxproj">
+      <Project>{fcd2a98c-ff8e-467a-a19f-1d8c5887aa34}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libs\OuMfc\TreeCtrl\TreeCtrl.vcxproj">
+      <Project>{49993921-6a46-4477-9135-2097dc93729e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="DiagramEdit.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

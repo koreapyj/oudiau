@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 6.5.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>駅間最小所要時間・駅間最小所要時間列車</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.14. 駅間最小所要時間・駅間最小所要時間列車</H2>
+<HR>
+<P>　OuDia のダイヤグラムビューは、隣り合う２つの駅の間の（上下の）幅を、<B>各駅停車の最速所要時間</B>をもとに決定します。この所要時間を、その駅間の『<B>駅間最小所要秒数</B>』と呼びます。また、駅間を『駅間最小所要秒数』で走る列車を『<B>駅間最小所要秒数列車</B>』と呼称します。<BR>
+<BR>
+　時刻表データを入力してダイヤグラムを表示してみると、「ある駅間の高さが不自然に短い」と感じる場合があります。これは、入力ミスなどの理由で、その駅間に所要時分の不自然に短い列車が混じっていて『駅間最小所要秒数』が短く算定されているためです。<BR>
+<BR>
+　また、「ダイヤグラムを表示してみたところ、ある駅間においての列車線（スジ）が垂線になってしまっている」ということがあります。これは、その駅間の『駅間最小所要秒数』が０秒に算定されているためです。当駅の時刻よりも次駅の時刻のほうが早い列車がある場合、その駅間の『駅間最小所要秒数』は０秒に算定されます。<BR>
+<BR>
+　このような場合は、時刻表ビューでフォーカスをその駅に合わせてから、メニューコマンド [時刻表]－[最小所要秒数列車に移動] を選択してみてください。OuDia は、フォーカスのある駅と次の駅の間の『駅間最小所要秒数』に対応する列車（フォーカスのある駅と次の駅の間を最も短い時間で走る列車）に、フォーカスを移動させます。入力ミスが原因で『駅間最小所要秒数』が不自然に短くなっている場合は、この機能を使うことにより、入力ミスを発見することができます。</P>
+<P>　なお、駅時刻の修正により駅間最小所要秒数が変化しても、その結果は、すでに開いているダイヤグラムビューには反映されません。<BR>
+　このような場合は、ダイヤグラムビューを選択してから、メニューコマンド[表示]-[更新]を選択してください。これにより、駅間最小所要秒数がダイヤグラムに反映されます。</P>
+<P><B>参照：</B><A href="../../c01_tutorial/c02_filenew/c07_ressya_chuui/ressyanyuuryoku_chuui.html">列車の入力についての補足</A><B><BR>
+参照：</B><A href="../../../c03_reference/c05_jikokuhyouview/jikokuhyouview.html#ekikansaisyousec">[時刻表]の[最小所要時間列車に移動]</A><BR>
+<B>参照：</B><A href="../../../c03_reference/c06_diagramview/diagramview.html#kousin">[ダイヤグラム]の[更新]</A></P>
+<HR>
+<P><A href="../c15_ekijikokukeisikihenkou/ekijikokukeisikihenkou.html">次へ</A>　<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

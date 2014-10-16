@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.6.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>多数の列車の駅時刻を変更（『駅時刻変更』機能）</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.12. 多数の列車の駅時刻を変更（『駅時刻変更』機能）</H2>
+<HR>
+<P>　たくさんの列車を入力した後で、ある駅の時刻をまとめて修正したくなる場合があります。<BR>
+　たとえば、「すでに入力した複数の列車について、Ａ駅の発時刻を、今より2分繰下げたい」という場合が、これに該当します。</P>
+<P>　これを、『駅時刻のプロパティ』で一つ一つ変更するのは大変です。<BR>
+　ここで説明する『駅時刻変更』機能は、こんなときのために用意したものです。</P>
+<P>（例では、複数の列車の亀岡の発時刻を、2分繰下げます。）</P>
+<P><B>１．</B>　フォーカスセルを、変更したい列車の１本目の、変更したい駅時刻に移動してください。</P>
+<P><B>２．</B>　メニューコマンド [駅時刻]→[駅時刻変更...] を選択してください。</P>
+<P align="center"><IMG src="jikokuhyouview_01.gif" width="396" height="429" border="0"><BR>
+<FONT size="-1">（亀岡 6:04 発の列車にフォーカスを設定して、[駅時刻]→[駅時刻変更]を選択しています。）</FONT></P>
+<P>・・・[駅時刻変更]ダイアログが開きます。</P>
+<P><B>３．</B> [駅時刻変更] ダイアログに、変更内容を入力してください。</P>
+<P align="center"><IMG src="cdlgmodifyekijikokuoperation02.gif" width="458" height="256" border="0"> <FONT size="-1"><BR>
+（例では、「2分繰下げ」を指定しています。）<BR>
+</FONT></P>
+<P>　このダイアログの各項目には、以下のような意味があります。</P>
+<H4>◎ [駅扱][変更する]</H4>
+<P>　駅扱を変更する場合は、チェックをONにしてください。<BR>
+　　チェックを ON にした場合は、駅扱をどのように変更するかを、[運行なし]・[停車]・[通過]・[経由なし] から選択してください。<BR>
+</P>
+<H4>◎[駅時刻]</H4>
+<P>　フォーカスセルの駅時刻の変更内容を、選択してください。<BR>
+<BR>
+<B>[変更しない]</B>・・・駅時刻は変更しません。<BR>
+<B>[繰下げ/繰上げ]</B>・・・フォーカスセルのある駅時刻を、現在の設定値のｎ分後にします（繰上げ・繰下げ）。繰下げの場合は正の数・繰上げの場合は負の数を指定してください。<BR>
+<B>[他駅からのコピー]</B>・・・フォーカスセルのある駅時刻を、指定の駅時刻のｎ分後にします。ｎ分前にする場合は、負の数を指定してください。<BR>
+　この機能で駅時刻を変更した場合、後の駅への繰上げ・繰下げは行われません。<BR>
+<B>[設定なしにする]</B>・・・フォーカスセルのある駅時刻を、[設定なし]にします。</P>
+<P>参照：　<A href="../../../c03_reference/c08_dialog/c12_dlgmodifyekijikokuoperation/dlgmodifyekijikokuoperation.html">駅時刻変更</A></P>
+<P><B>４．</B>　[OK] を押してください。</P>
+<P>・・・　[駅時刻変更] ダイアログで指定した内容が、時刻表ビューに反映されます。</P>
+<P><B>５．</B>　フォーカスセルを、変更したい列車の２本目の、変更したい駅に移動して、メニューコマンド [駅時刻]→[駅時刻変更の再実行]を選択してください。</P>
+<P><IMG src="../../../kaisoku.jpg" alt="快速" width="32" height="24" border="0" align="left">　メニューを選択する代わりに、 [ . ] (ピリオド)キーを押しても、同じ効果があります。<BR clear="left">
+</P>
+<P><IMG src="jikokuhyouview_03.gif" width="396" height="430" border="0"><BR>
+</P>
+<P>・・・　さきほどの [駅時刻変更] ダイアログで指定した変更内容（例では、「発時刻を、現在の発時刻の[2]分後にする」指定）が、フォーカスセルの位置に適用されます。</P>
+<P><IMG src="jikokuhyouview_04.gif" width="397" height="430" border="0"><BR>
+</P>
+<P><B>６．</B>　これ以後、メニューコマンド [駅時刻]→[駅時刻変更の再実行]を連続して実行することにより、多数の列車の時刻を連続して変更することができます。</P>
+<P><IMG src="../../../kaisoku.jpg" alt="快速" width="32" height="24" border="0" align="left">　このとき、『フォーカス移動モード』として<B>『フォーカス右移動モード』</B>を選択すると、さらに効率的です。 Ctrl キーを押し下げた状態で [ . ](ピリオド)
+キーと [→] キーを連続して押すことにより、多数の列車の時刻を迅速に修正することができます。</P>
+<P><B>参照：</B><A href="../c02_kuriage/kuriage.html">列車の駅時刻の繰上げ・繰下げ</A></P>
+<P><B>参照：</B><A href="../../../c03_reference/c08_dialog/c12_dlgmodifyekijikokuoperation/dlgmodifyekijikokuoperation.html">駅時刻変更</A> ダイアログボックス</P>
+<HR>
+<P><A href="../c13_sisen/sisen.html">次へ</A>　<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.6.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>駅の入力</TITLE>
+<LINK rel="stylesheet" href="../../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H3>2.1.2.3 駅の入力</H3>
+<HR>
+<P>路線の駅の一覧を入力します。</P>
+<H4>2.1.2.3.1. 『駅ビュー』を開く</H4>
+<P>[路線ビュー]の[駅]アイコンをクリックしてください。<BR>
+<BR>
+・・・  『作業領域』に、[駅] という名前のウインドウが現れます。以後、このウインドウを『駅ビュー』と表記します。<BR>
+</P>
+<P align="center"><IMG src="ekiview_1.gif" width="480" height="291" border="0"><BR>
+（図：駅ビュー）</P>
+<P>　『駅ビュー』は、『グリッド形式ビュー』（Microsoft Excel のような、表形式のビュー）です。</P>
+<P>&nbsp;&nbsp;参照：<A href="../../../../c03_reference/c09_gridview/gridview.htm">3.9, グリッド形式ビュー</A></P>
+<H4>2.1.2.3.2. 駅を追加</H4>
+<P><B>１．</B> 『駅ビュー』のフォーカスセルが一番下の行にある状態で、メニュー[編集]→[駅を挿入]を選択してください。<BR>
+<BR>
+・・・  [駅のプロパティ] ダイアログが開きます。</P>
+<P><IMG src="../../../../kaisoku.jpg" alt="快速" width="32" height="24" border="0" align="left"> 『駅ビュー』のフォーカスセルが一番下の行にある状態で、 [Ctrl]+[Ins] キーを押しても、同じ効果があります。<BR clear="left">
+<BR>
+<IMG src="../../../../kaisoku.jpg" alt="快速" width="32" height="24" border="0" align="left"> 『駅ビュー』の一番下の段のセルをダブルクリックしても、同じ効果があります。<BR clear="left">
+<BR clear="left">
+<IMG src="../../../../kaisoku.jpg" alt="快速" width="32" height="24" border="0" align="left"> 『駅ビュー』のフォーカスセルが一番下の[駅名]列にある状態で、キーボードから駅名の入力を開始することができます。<BR clear="left">
+<BR>
+</P>
+<P><B>２．</B> [駅のプロパティ]ダイアログに、駅の情報を入力してください。</P>
+<P align="center"><IMG src="dlgekiprop_1.gif" width="417" height="206" border="0"><BR>
+（図：駅のプロパティ）</P>
+<P>[駅のプロパティ] の項目には、以下のような意味があります。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD width="113">[駅名]</TD>
+      <TD colspan="2"> 駅名を指定してください。省略できません。</TD>
+    </TR>
+    <TR>
+      <TD rowspan="5" width="113">[駅時刻形式] </TD>
+      <TD colspan="2">これは、『時刻表ビュー』での、この駅の書式を示します。</TD>
+    </TR>
+    <TR>
+      <TD width="98"> [発時刻]</TD>
+      <TD width="327">この駅は『時刻表ビュー』では、発時刻のみを表示します。一般の途中駅では、これを指定してください。</TD>
+    </TR>
+    <TR>
+      <TD width="98">[発着]</TD>
+      <TD width="327">この駅は『時刻表ビュー』では、着時刻・発時刻の両方を表示します。長時間停車する列車の多い途中駅（主要駅や待避可能駅）では、これを指定します。</TD>
+    </TR>
+    <TR>
+      <TD width="98"> [下り着時刻]</TD>
+      <TD width="327">この駅は、下りの『時刻表ビュー』では着時刻のみ表示・上りの『時刻表ビュー』では発時刻のみ表示となります。下り列車の終点、もしくは終点付近の途中駅で使います。</TD>
+    </TR>
+    <TR>
+      <TD width="98"> [上り着時刻]</TD>
+      <TD width="327">この駅は、上りの『時刻表ビュー』では着時刻のみ表示・下りの『時刻表ビュー』では発時刻のみ表示となります。上り列車の終点、もしくは終点付近の途中駅で使います。</TD>
+    </TR>
+    <TR>
+      <TD rowspan="3" width="113">[駅規模]</TD>
+      <TD colspan="2">これは、『ダイヤグラムビュー』での、この駅の書式を指定します。</TD>
+    </TR>
+    <TR>
+      <TD width="98">[一般駅]</TD>
+      <TD width="327">この駅は、『ダイヤグラムビュー』では細い横線であらわします。</TD>
+    </TR>
+    <TR>
+      <TD width="98"> [主要駅]</TD>
+      <TD width="327">この駅は、『ダイヤグラムビュー』では太い横線であらわします。</TD>
+    </TR>
+    <TR>
+      <TD width="113">[境界線]</TD>
+      <TD colspan="2">チェックをONにすると、下りの『時刻表ビュー』では、この駅の下に横罫線がつきます。上りの『時刻表ビュー』では、この駅の上に横罫線がつきます。</TD>
+    </TR>
+    <TR>
+      <TD width="113" rowspan="2">[ダイヤグラム列車情報]</TD>
+      <TD width="98">[下り]</TD>
+      <TD width="327">ダイヤグラム上で、この駅の位置に下り列車の列車情報(列車番号・列車名・号数)を表示する方法を指定することができます。以下からの選択です。
+      <UL>
+        <LI>[始発なら表示]
+        <LI>[常に表示]
+        <LI>[表示しない]
+      </UL>
+      </TD>
+    </TR>
+    <TR>
+      <TD>[上り]</TD>
+      <TD>[下り]と同様です。</TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;[駅時刻を駅時刻形式で正規化]</TD>
+      <TD colspan="2">&nbsp;　チェックをONにした状態で[OK]を押すと、すべてのダイヤのすべての列車の駅時刻を、駅時刻形式で正規化します。<BR>
+      　詳細は、　<A href="../../../../c03_reference/c08_dialog/c04_dlgekiprop/dlgekiprop.html">駅のプロパティ</A>　を参照してください。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P>※ これらは、あとから変更することもできます。</P>
+<P><B>３．</B>  [駅のプロパティ] ダイアログで、駅の情報の入力が終わったら、[OK] ボタンを押してください。<BR>
+<BR>
+・・・  [駅のプロパティ] ダイアログが消えます。『駅ビュー』に、入力した駅の情報が追加されます。</P>
+<P><IMG src="ekiview_2.gif" width="369" height="126" border="0"></P>
+<P><B>４．</B> ２．～３．を繰り返して、終点までの駅の情報を入力してください。</P>
+<P>　路線の終着駅(駅ビューでの一番下の駅)は、『駅時刻形式』を『下り着時刻』に設定することをお勧めします。</P>
+<P align="center"><IMG src="ekiview_3.gif" width="348" height="366" border="0"><BR>
+（図：駅ビュー）</P>
+<HR>
+<P align="left"><A href="../c04_ressyasyubetsu/ressyasyubetsu.html">次へ</A>　<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

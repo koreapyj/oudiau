@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.8.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<TITLE>時刻表ビュー</TITLE>
+<LINK rel="stylesheet" href="../../oudia01.css" type="text/css">
+<STYLE type="text/css">
+<!--
+H5{
+  font-size : 100%;
+  font-weight : bold;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<H2>3.5.　時刻表ビュー</H2>
+<HR>
+<P>　列車の編集を行います。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/index.html">列車のいろいろな入力方法</A><BR>
+<B>参照：</B><A href="../../c02_usersguide/c01_tutorial/index.html">2.1.　基本的な使い方</A>の<A href="../../c02_usersguide/c01_tutorial/c02_filenew/c06_ressya/ressya.html">2.1.2.6 列車の入力</A></BLOCKQUOTE>
+<P>『時刻表ビュー』は、『グリッド形式ビュー』（Microsoft Excel のような、表形式のビュー）です。</P>
+<blockquote><b>参照：</b><a href="../c09_gridview/gridview.htm">3.9, グリッド形式ビュ</a><BR>
+</blockquote>
+<H3>3.5.1. メニューコマンド</H3>
+<H4>3.5.1.1. [ファイル]</H4>
+<P><B>[時刻表CSVファイル]-[CSVへエクスポート]</B></P>
+<P>時刻表ビューの内容を、『時刻表CSVファイル』にエクスポート(変換して出力)します。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c16_jikokuhyoucsv/jikokuhyoucsv.html">2.3.16. 時刻表CSVファイルへのエクスポート</A></BLOCKQUOTE>
+<P><B>[時刻表CSVファイル]-[CSVからインポート]</B></P>
+<P>[CSVへエクスポート]で出力した『時刻表CSVファイル』を、OuDiaにインポート(変換して読み込む)します。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c16_jikokuhyoucsv/jikokuhyoucsv.html">2.3.16. 時刻表CSVファイルへのエクスポート</A></BLOCKQUOTE>
+<P>
+<BR>
+</P>
+<H4><A name="hensyu"></A>3.5.1.2. [編集]</H4>
+<P>　[編集] メニューによる編集操作は、列車（縦一列）を単位とします。<BR>
+※  Microsoft Excel　のように、セル（升目）の単位でテキストコピーや貼り付けができるわけではありません。</P>
+<H5>[元に戻す]</H5>
+<P>　直前の操作を取り消します（アンドゥ）。</P>
+<P><B>[やり直し]</B></P>
+<P>　取り消した操作を再び行います(リドゥ）。<BR>
+　[元に戻す]の[元に戻す]にあたります。</P>
+<H5>[切り取り]</H5>
+<P>　フォーカスセルのある位置の列車を切り取り、クリップボードに保存します。<BR>
+　保存した列車は、[貼り付け] で、列車ビューの任意の位置に貼り付けることができます。</P>
+<H5>[コピー]</H5>
+<P>　フォーカスセルのある位置の列車を切り取らずに、クリップボードに保存します。<BR>
+　保存した列車は、[貼り付け] で、列車ビューの任意の位置に貼り付けることができます。</P>
+<H5>[貼り付け]</H5>
+<P>　[切り取り]・[コピー] でクリップボードに保存した列車を、フォーカスセルの位置に貼り付けます。</P>
+<H5>[消去]</H5>
+<P>　フォーカスセルのある位置の列車を消去します。<BR>
+　クリップボードへの保存は行いません。</P>
+<H5>[時刻のみ貼り付け]</H5>
+<P>　クリップボードに保存されている列車の駅時刻のうち、『運行なし』以外の駅時刻を、フォーカスセルの位置の列車に上書きします。<BR>
+　フォーカスセルの位置の列車の列車番号・列車種別・列車名・号数・備考は変わりません。<BR>
+<BR>
+　このメニューコマンドは、２本の列車を１本の直通列車にする時に使います。<BR>
+<BR>
+</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c09_chokutsuu/chokutsuu.html">２本の列車を１本の直通列車にする</A></BLOCKQUOTE>
+<H5>[すべて選択]</H5>
+<P>　現在のビューのすべての列車を選択します。</P>
+<H4>3.5.1.3. [時刻表]</H4>
+<H5>[列車のプロパティ...]</H5>
+<P>　フォーカスセルのある位置の、列車のプロパティを編集します。<BR>
+　フォーカスセルが一番右の（空白の）行にある場合は、末尾に新しい列車を追加します。<BR>
+　このメニューコマンドを選択すると、[列車のプロパティ]ダイアログが開きます。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../c08_dialog/c08_dlgressyaprop/dlgressyaprop.html">列車のプロパティ</A> </BLOCKQUOTE>
+<P><IMG src="../../kaisoku.jpg" alt="快速" width="32" height="24" border="0"> 　列車種別ビューの、[列車番号]・[列車種別]・[列車名]・[備考]の列をダブルクリックしても、同じ効果があります。</P>
+<H5>[列車を挿入...]</H5>
+<P>　フォーカスセルのある位置に、空白の列車を追加します。</P>
+<H5>[フォーカス下移動][フォーカス右移動]</H5>
+<P>　『フォーカス移動モード』を、『フォーカス下移動モード』・『フォーカス右移動モード』に変更することができます。<BR>
+<BR>
+　ツールバーに、同じ効果を持つボタンがあります。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c05_focusidou/focusidou.html">フォーカス移動モード</A></BLOCKQUOTE>
+<H5><A name="ekikansaisyousec"></A>[最小所要時間列車に移動]</H5>
+<P>　フォーカスがある駅と次の駅の間の、『駅間最小所要時間列車』を検索し、フォーカスをその列車に移動させます。<BR>
+<BR>
+　OuDia のダイヤグラムビューでの駅間の（上下方向の）幅は、その駅間を最も短い時間で走る列車の所要時分をもとに決定します。この時間を、その駅間の『<B>駅間最小所要時間</B>』と呼びます。また、駅間を『駅間最小所要時間』で走る列車を『<B>駅間最小所要時間列車</B>』と呼びます。<BR>
+<BR>
+　Ａ駅とＢ駅の間の『駅間最小所要時間』は、「両駅に停車する列車のうち、Ａ駅の発時刻とＢ駅の着時刻が最も短いもの」となります。<BR>
+　このとき、Ａ駅の着時刻が指定されていて発時刻が省略されている場合は、着時刻＝発時刻とみなします。また、Ｂ駅の着時刻が省略されていて発時刻が指定されている場合も、着時刻＝発時刻とみなします。<BR>
+<BR>
+　両駅に停車する列車がひとつもない場合は、Ａ駅・Ｂ駅を通過する列車に指定されている通過時刻をもとに、駅間最小所要時間を求めます。この場合、検索対象となるのは、以下のすべての列車です。</P>
+<UL>
+  <LI>　Ａ駅を通過(通過時刻指定あり)・Ｂ駅を通過(通過時刻指定あり)
+  <LI>　Ａ駅に停車 ・Ｂ駅を通過(通過時刻指定あり)
+  <LI>　Ａ駅を通過(通過時刻指定あり)・Ｂ駅に停車
+</UL>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c14_ekikansaisyousec/ekikansaisyousec.html">駅間最小所要時間・駅間最小所要時間列車</A><BR>
+</BLOCKQUOTE>
+<H5><A name="narabekae"></A>[並べ替え]</H5>
+<P>　フォーカスのある列の情報をもとに、時刻表の列車の順序を並べ替えます。<BR>
+　列車を範囲選択したまま [並べ替え] を行うと、選択範囲の列車だけを並べ替えます。</P>
+<BLOCKQUOTE><B>参照</B>： <A href="../../c02_usersguide/c03_ressyanyuuryoku/c19_jikokuhyousort/jikokuhyousort.htm">時刻表ビューでの列車の並べ替え</A></BLOCKQUOTE>
+<H5>[列車番号で一本化]</H5>
+<P>　時刻表ビュー上の全列車を、列車番号をもとに一本化します。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c09_chokutsuu/c03_unify/jikokuhyouview_unify.htm">[時刻表]-[列車番号で一本化]（全自動方式）</A></BLOCKQUOTE>
+<H5>[時刻表ビューのプロパティ...]</H5>
+<P>　時刻表ビューのプロパティを設定します。<BR>
+<BR>
+　このメニューコマンドを選択すると、[時刻表ビューのプロパティ]ダイアログが開きます。<BR>
+<BR>
+<IMG src="../../kaisoku.jpg" alt="快速" width="32" height="24" border="0">　　ステータスバーの [貼り付け移動量] のところをダブルクリックしても、同じ効果があります。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../c08_dialog/c10_dlgjikokuhyouprop/dlgjikokuhyouprop.html">時刻表ビューのプロパティ</A></BLOCKQUOTE>
+<H4>3.5.1.4.　[駅時刻]</H4>
+<P><B><A name="stationtime_prop" id="stationtime_prop"></A>[駅時刻のプロパティ...]</B><BR>
+<BR>
+　フォーカスセルのある位置の、駅時刻を編集します。<BR>
+　フォーカスセルが一番右の（空白の）行にある場合は、末尾に新しい列車を追加したうえで、その駅の駅時刻を設定します。<BR>
+　このメニューコマンドを選択すると、[駅時刻]ダイアログが開きます。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../c08_dialog/c09_dlgekijikoku/dlgekijikoku.html">駅時刻</A></BLOCKQUOTE>
+<P>&nbsp; フォーカスセルが駅名の行にある場合は、[駅のプロパティ] ダイアログが開きます。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../c08_dialog/c04_dlgekiprop/dlgekiprop.html">駅のプロパティ</A></BLOCKQUOTE>
+<P><IMG src="../../kaisoku.jpg" alt="快速" width="32" height="24" border="0">　 駅時刻・駅名のセルをダブルクリックしても、同じ効果があります。</P>
+<P>&nbsp;<B>[時刻消去]</B><BR>
+<BR>
+　フォーカスセルのある位置の駅時刻を削除します。<BR>
+　[駅時刻] ダイアログで、 [着時刻] もしくは [発時刻] を空欄にするのと同じ効果があります。<BR>
+　[駅扱] が [通過]・[経由なし] の駅でこの操作を行った場合、[駅扱]は[運行なし] に変わります。</P>
+<P><!--
+<B>[運行なし]</B><BR>
+<BR>
+　フォーカスセルのある位置の駅時刻を、[運行なし]にします。<BR>
+　[駅時刻] ダイアログで [駅扱] を[運行なし]に変更するのと同じ効果があります。<BR>
+<BR>
+--><B>[通過]</B><BR>
+<BR>
+　フォーカスセルのある位置の駅時刻を、[通過]にします。<BR>
+　このコマンドでは、OuDiaはその駅に入力されていた<B>着時刻・発時刻を削除します</B>。</P>
+<P><IMG src="../../kaisoku.jpg" width="32" height="24" border="0" align="left"><B>ショートカットキー：</B>Ctrl+ '-' , <B>テンキーの '-'</B><BR clear="left">
+</P>
+<P><A name="tsuuka_teisya"></A><B>[通過-停車]</B><BR>
+<BR>
+　フォーカスセルのある位置の駅扱を[通過]-[停車]の間で切り替えます。<BR>
+　このコマンドでは、OuDiaはその駅に入力されていた<B>着時刻・発時刻を維持します</B>。<BR>
+<BR>
+　フォーカスセルのある位置の駅扱が[通過]以外なら、[通過]にします。<BR>
+　[駅時刻] ダイアログで [駅扱] を[通過]に変更するのと同じ効果があります。<BR>
+<BR>
+　フォーカスセルのある位置の駅時刻が[通過]なら、駅扱を[停車]にします。</P>
+<P><IMG src="../../kaisoku.jpg" width="32" height="24" border="0" align="left"> <B>ショートカットキー：</B> Alt+'-'<BR clear="left">
+</P>
+<P><B>[経由なし]</B><BR>
+<BR>
+　フォーカスセルのある位置の駅時刻を、[経由なし]にします。<BR>
+　[駅時刻] ダイアログで [駅扱] を[経由なし]に変更するのと同じ効果があります。</P>
+<P><IMG src="../../kaisoku.jpg" width="32" height="24" border="0" align="left"> <B>ショートカットキー：</B> Ctrl+Shift+'-' , <B>テンキーの '/'</B><BR clear="left">
+</P>
+<P><B>[当駅始発]</B><BR>
+<BR>
+フォーカスセルのある位置を、列車の始発駅とします。<BR>
+フォーカスセルより上の駅の時刻がすべて[運行なし]に変わります。</P>
+<P><B>[当駅止り]</B><BR>
+<BR>
+フォーカスセルのある位置を、列車の終着駅とします。<BR>
+フォーカスセルより下の駅の時刻がすべて[運行なし]に変わります。</P>
+<P><B>[直通化]</B><BR>
+<BR>
+ある駅（Ａ駅）で終着になる列車と、Ａ駅始発の列車をがある場合、この２つの列車をつなげて、１本の直通列車にすることができます。</P>
+<BLOCKQUOTE><B>参照：</B>　<A href="../../c02_usersguide/c03_ressyanyuuryoku/c09_chokutsuu/chokutsuu.html">２本の列車を１本の直通列車にする</A>　<A href="../../c02_usersguide/c03_ressyanyuuryoku/c09_chokutsuu/c01_direct/direct.html">[駅時刻]-[直通化]（自動方式）</A></BLOCKQUOTE>
+<P><B>[分断]</B></P>
+<P>列車を、途中駅を境に 2本の列車に分断します。<BR>
+<BR>
+</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c10_uchikiri/uchikiri.html">列車の運転区間を途中で打ち切る</A>・ <A href="../../c02_usersguide/c03_ressyanyuuryoku/c10_uchikiri/uchikiri.html#undirect">列車を分断</A></BLOCKQUOTE>
+<P><B>[連続入力]</B><BR>
+<BR>
+連続入力モードを開始します。<BR>
+　連続入力モード中なら、連続入力モードを終了します。<BR>
+<BR>
+</P>
+<BLOCKQUOTE><B>参照：</B>『<A href="../../c02_usersguide/c03_ressyanyuuryoku/c03_renzokunyuuryoku/renzokunyuuryoku.html">連続入力モード</A>』</BLOCKQUOTE>
+<P><B>[駅時刻を挿入]</B><BR>
+<BR>
+フォーカスセルのある位置から下の駅の時刻を、１駅ずつ下にずらします。<BR>
+<BR>
+</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c04_ekijikokusounyuu/ekijikokusounyuu.html">駅時刻を挿入／削除（駅時刻を上下に移動）</A></BLOCKQUOTE>
+<P><B>[駅時刻を削除]</B><BR>
+<BR>
+フォーカスセルのある位置の駅時刻を削除し、それより下の駅の時刻を、１駅ずつ上ににずらします。
+</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c04_ekijikokusounyuu/ekijikokusounyuu.html">駅時刻を挿入／削除（駅時刻を上下に移動）</A></BLOCKQUOTE>
+<P><STRONG>[駅時刻変更]</STRONG><BR>
+<BR>
+　フォーカスセルのある位置の、駅時刻を変更します。<BR>
+　このメニューコマンドを選択すると、[駅時刻変更]ダイアログが開きます。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c12_modifyekijikokuoperation/modifyekijikokuoperation.html">多数の列車の駅時刻を変更（『駅時刻変更』機能）</A><BR>
+<B>参照：</B><A href="../c08_dialog/c12_dlgmodifyekijikokuoperation/dlgmodifyekijikokuoperation.html">駅時刻変更</A></BLOCKQUOTE>
+<P><STRONG>[駅時刻変更の再実行]</STRONG><BR>
+<BR>
+　最近 [駅時刻変更] ダイアログで指定した内容の変更動作を、フォーカスセルのある位置の駅時刻に適用します。<BR>
+<BR>
+<IMG src="../../kaisoku.jpg" width="32" height="24" border="0">　メニューを選択する代わりに、 [.] (ピリオド)キーを押しても、同じ効果があります。<BR>
+　このとき、『フォーカス移動モード』として『フォーカス下移動モード』を選択すると、さらに効率的です。
+[&nbsp;.&nbsp;] と [→] キーを連続して押すことにより、多数の列車の時刻を迅速に修正することができます。</P>
+<BLOCKQUOTE><B>参照：</B><A href="../../c02_usersguide/c03_ressyanyuuryoku/c12_modifyekijikokuoperation/modifyekijikokuoperation.html">多数の列車の駅時刻を変更（『駅時刻変更』機能）</A></BLOCKQUOTE>
+<P><STRONG>[連続1分修正]-[-1分し次へ]<BR>
+<BR>
+</STRONG>　フォーカスのある駅時刻と、それ以後の駅時刻を１分繰上げます。<BR>
+　そのうえで、フォーカスを次の位置に移動します。このときの移動方向は、『フォーカス移動モード』に従います。</P>
+<P><STRONG>[連続1分修正]-[-1分]<BR>
+<BR>
+</STRONG>　フォーカスのある駅時刻と、それ以後の駅時刻を１分繰上げます。<BR>
+　フォーカスは移動しません。</P>
+<P><STRONG>[連続1分修正]-[フォーカスを次へ]</STRONG><BR>
+<BR>
+　時刻は変更せずに、フォーカスを次の位置に移動します。このときの移動方向は、『フォーカス移動モード』に従います。</P>
+<P><STRONG>[連続1分修正]-[フォーカスを前へ]</STRONG><BR>
+<BR>
+　時刻は変更せずに、フォーカスを前の位置に移動します。このときの移動方向は、『フォーカス移動モード』に従います。</P>
+<P><STRONG>[連続1分修正]-[+1分し次へ]</STRONG><BR>
+<BR>
+　フォーカスのある駅時刻と、それ以後の駅時刻を１分繰下げます。 <BR>
+　そのうえで、フォーカスを次の位置に移動します。このときの移動方向は、『フォーカス移動モード』に従います。</P>
+<P><STRONG>[連続1分修正]-[+1分]</STRONG><BR>
+<BR>
+　フォーカスのある駅時刻と、それ以後の駅時刻を１分繰下げます。<BR>
+　フォーカスは移動しません。</P>
+<H5>[ダイヤグラムへ移動]</H5>
+<P>　ダイヤグラムビューを表示します。<BR>
+　この場合、『ダイヤグラムビュー』は、『時刻表ビュー』のフォーカスセルの位置の駅・列車が画面に表示されるように、ダイヤグラムの表示位置を調整します。</P>
+
+<H4>3.5.1.5.[表示]</H4>
+<H5>[通過駅の駅時刻を表示]</H5>
+<P>　通過駅の駅時刻を表示する/しないを切り替えます。</P>
+<H5>[全時刻を表示]</H5>
+<P>　チェックをONにすると、ダイヤグラムビューは、(駅のプロパティの『駅時刻形式』には関わらず)全時刻の着時刻・発時刻を表示します。</P>
+<HR>
+<P><A href="../index.html">戻る</A><BR>
+</P>
+</BODY>
+</HTML>

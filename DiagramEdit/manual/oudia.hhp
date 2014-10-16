@@ -1,0 +1,20 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=oudia.chm
+Contents file=oudia.hhc
+Default Window=main
+Default topic=oudia_manual\index.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x411 “ú–{Œê
+Title=OuDia
+
+[WINDOWS]
+main="OuDia","oudia.hhc",,"oudia_manual\index.html","oudia_manual\index.html",,,,,0x42520,,0x3046,[64,65,773,675],,,,,,,0
+
+
+[FILES]
+oudia_manual\index.html
+
+[INFOTYPES]
+

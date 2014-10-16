@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 6.5.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>[駅時刻]ダイアログの便利な使い方</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.1. [駅時刻]ダイアログの便利な使い方</H2>
+<HR>
+<P>　[駅時刻]ダイアログには、列車の編集操作を迅速・便利にするための、特殊な動作があります。</P>
+<P><B>参照： </B><A href="../../../c03_reference/c08_dialog/c09_dlgekijikoku/dlgekijikoku.html">駅時刻</A></P>
+<H3>１．[着時刻] の編集操作による [発時刻] の繰上げ・繰下げ</H3>
+<P>　この機能は、[駅時刻]ダイアログのにおいて、[駅時刻の繰上げ・繰下げ] のチェックボックスがONの場合にだけ有効です。<BR>
+<BR>
+　 [着時刻] ・ [発時刻] 両方のエディットボックスに時刻が設定されている状態で
+[着時刻] に設定されている時刻を変更すると、 [発時刻] に設定されている時刻は
+[着時刻] の変更に合わせて自動で繰上げ／繰下げになります。</P>
+<P>　【例】</P>
+<P><B>（１）</B>　[着時刻] が &quot;1000&quot; ・ [発時刻] が &quot;1002&quot; になっている状態で・・・<BR>
+<BR>
+<IMG src="ekijikokudlg00.gif" width="309" height="169" border="0"><BR>
+<BR>
+<BR>
+<B>（２）</B>　[着時刻] を &quot;1000&quot; から &quot;1003&quot; に変更すると、[発時刻] は [着時刻] が３分繰下げられたのに合わせて、自動的に &quot;1002&quot; から &quot;1005&quot; に変わります。<BR>
+<IMG src="ekijikokudlg01.gif" width="309" height="169" border="0"><BR>
+<BR>
+<BR>
+　※ [発時刻] が変わるのは、フォーカスが [着時刻] テキストボックス以外（[発時刻]など）に移動したときか、
+[OK] ボタンを押したときです。</P>
+<P><BR>
+</P>
+<H3>２．[着時刻] ・ [発時刻] への時の補完</H3>
+<P>　 [着時刻]・[発時刻] エディットボックスには、時刻の時と分を &quot;000&quot; ～ &quot;2359&quot; の形式で入力するのが原則です。しかし、時を省略して分だけを入力することもできます。 OuDia はこの場合、前の駅の時刻をもとに、時を補完します。<BR>
+<BR>
+※　分のみを入力する場合は、&quot;00&quot; ～ &quot;59&quot; の形式で、数字を２桁で入力してください。０分から９分までの場合も、十の位に &quot;0&quot; を添えた &quot;00&quot; ～ &quot;09&quot; の形式で入力しないと、時の補完の機能は働きません。<BR>
+<BR>
+※　始発駅の駅時刻に対しては、時の補完ができないため、この機能は働きません。</P>
+<H4>【例】</H4>
+<P>（１）　前の駅の発時刻が &quot;553&quot; のところで [駅時刻] ダイアログを開き、[発時刻]
+に &quot;55&quot; と入力すると、<BR>
+<BR>
+<IMG src="jikokuhyouview01.gif" width="322" height="423" border="0"><BR>
+<BR>
+（２） [発時刻] には省略された時が補完され、自動的に &quot;555&quot; に変わります。<BR>
+<IMG src="jikokuhyouview02.gif" width="324" height="424" border="0"><BR>
+<BR>
+<BR>
+　※　補完が行われるのは、 フォーカスがダイアログの他のコントロールに移動したときか、 [OK] ボタンを押したときです。</P>
+<HR>
+<P><A href="../c02_kuriage/kuriage.html">次へ</A> &nbsp;<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

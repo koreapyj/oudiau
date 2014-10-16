@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e703bb9d-1404-4280-bd2a-3dbc7135778a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2296c933-2613-45f4-8f4a-5ba0f201436e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eafbc78f-0e57-4285-8410-6d462f006143}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="JikokuhyouCsv">
+      <UniqueIdentifier>{51b9881e-09e5-4bcf-b502-10e8b9ed5fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DedRosenFileData">
+      <UniqueIdentifier>{71f9f0bd-ee59-4e28-be26-fdab157520b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DedRosenFileData\EditCmd">
+      <UniqueIdentifier>{9a77b02e-2b36-4282-bbb6-f65f457d3a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvFile">
+      <UniqueIdentifier>{f27291ac-a513-43bc-a6fb-5fc59822d6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{29502296-1cce-4fd1-b052-18ffb65f2649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entDed">
+      <UniqueIdentifier>{b6e608cd-f5a3-468f-9965-cbadc3f7f9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entDgr">
+      <UniqueIdentifier>{cbdb39a2-0935-414c-8710-2cf9c1012f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewEki">
+      <UniqueIdentifier>{54f41565-ce1f-47b7-ba8f-33ea4f173ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewEki\EkiColSpec">
+      <UniqueIdentifier>{456b0e6b-aa30-4d77-9de7-048a8698b886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewDiagram">
+      <UniqueIdentifier>{ea5d7f0c-8cb8-4084-8ba8-d3f5c7ab775d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewJikokuhyou">
+      <UniqueIdentifier>{9e286140-fbc9-4225-9ed1-504245998b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewJikokuhyou\WndJikokuhyou">
+      <UniqueIdentifier>{3c167e65-1851-49d0-bf43-6b2d3090db9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewJikokuhyou\JikokuhyouColSpec">
+      <UniqueIdentifier>{adb83e7d-3684-4243-a0ce-5400805c23be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Print">
+      <UniqueIdentifier>{56abcbb5-7096-4c8e-82c7-4fd22305a46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewRosen">
+      <UniqueIdentifier>{f73c9202-d731-492c-822b-0e0bebee416d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewRessyasyubetsu">
+      <UniqueIdentifier>{f785f498-5b02-4db1-a309-b5ec6318e42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewRessyasyubetsu\RessyasyubetsuColSpec">
+      <UniqueIdentifier>{43129799-4aab-4cbc-a97c-57e3edb1e973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewComment">
+      <UniqueIdentifier>{e738e198-9324-4443-8edb-4eab2c404d72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAboutBoxGpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDia\CconvWinDia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CDcdFreeLine_StyleSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDedStatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiagramEditDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiagramEditDoctmpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDia\CDlgDiaSaveSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgOuJikokuhyouCsvExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRfEditCmdHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvJikokuhyouCsv\CconvJikokuhyouCsv.cpp">
+      <Filter>JikokuhyouCsv</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\CconvCdDedDispProp.cpp">
+      <Filter>DedRosenFileData</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\CconvCDedRosenFileData.cpp">
+      <Filter>DedRosenFileData</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\CdDedDispProp.cpp">
+      <Filter>DedRosenFileData</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Comment.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_DedRosenFileDataProp.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Dia.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_DiaProp.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Eki.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressya.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressyasyubetsu.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_RessyasyubetsuSwap.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_Rosen.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="DedRosenFileData\EditCmd\CRfEditCmd_RosenFileData.cpp">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvFile\CConvFileDll.cpp">
+      <Filter>ConvFile</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CconvCentDed.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CdDedJikan.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CdDedJikoku.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CDedRessyaSoater.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CDedRessyaSoater_Bikou.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CDedRessyaSoater_Ekiatsukai.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CDedRessyaSoater_Ressyasyubetsu.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedDia.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedDiaCont.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedEkiCont.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedEkiJikoku.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedRessya.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedRessya_EkijikokuModifyOperation2.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedRessyaCont.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedRessyasyubetsuCont.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CentDedRosen.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDed\CRessyaContUnifier.cpp">
+      <Filter>entDed</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CDedRessyaSoater_Transfer.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrDia.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrEki.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrEkiCont.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrRessya.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrRessyasen.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CentDedDgrRessyasenCont.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="entDgr\CEnumRessyasen.cpp">
+      <Filter>entDgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\CDlgEkiProp.cpp">
+      <Filter>ViewEki</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\CEkiDoc.cpp">
+      <Filter>ViewEki</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\CEkiView.cpp">
+      <Filter>ViewEki</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\CPropEditUi_Eki.cpp">
+      <Filter>ViewEki</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\CWndDcdGridEki.cpp">
+      <Filter>ViewEki</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\EkiColSpec\CdEkiXColSpecCont.cpp">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEki\EkiColSpec\CdEkiYColSpecCont.cpp">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CaDcdDiagram_PageSelector.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CCalcCentDedDgrRessyasenOfPoint.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDcdDiagram.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDcdDiagram2.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDcdDiagram_CStopMarkDraw.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDedDiagramDoc.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\cdeddiagramview.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CDlgDiagramViewProp.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CRessyajouhouDraw.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CRessyasenDraw.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDiagram\CWndDiagram.cpp">
+      <Filter>ViewDiagram</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgEkijikokuProp.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgJikokuhyouViewProp.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\cdlgmodifyekijikokuoperation2.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CDlgRessyaProp.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CJikokuhyouDoc.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CJikokuhyouView.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CPropEditUI_Ekijikoku.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\CPropEditUi_Ressya.cpp">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CCellBuilder.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Renzoku.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Ressyahensyu.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWjkStateMachine.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\WndJikokuhyou\CWndJikokuhyou.cpp">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpecCont.cpp">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpecCont.cpp">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="Print\CconvCdPrintPageProp.cpp">
+      <Filter>Print</Filter>
+    </ClCompile>
+    <ClCompile Include="Print\CDlgPrintPageProp.cpp">
+      <Filter>Print</Filter>
+    </ClCompile>
+    <ClCompile Include="Print\CdPrintPageProp.cpp">
+      <Filter>Print</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgDiaList.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgDiaProp.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenCreateSubRosen.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenfileInsert.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_Diagram.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_FontColor.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenFileProp_Rosen.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CDlgRosenView.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRosen\CRosenViewTreeCtrl.cpp">
+      <Filter>ViewRosen</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CDlgRessyasyubetsuProp.cpp">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CRessyasyubetsuDoc.cpp">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CRessyasyubetsuView.cpp">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CWndDcdGridRessyasyubetsu.cpp">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpecCont.cpp">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpecCont.cpp">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRessyasyubetsu\CPropEditUi_Ressyasyubetsu.cpp">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewComment\CDedCommentDoc.cpp">
+      <Filter>ViewComment</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewComment\CDedCommentView.cpp">
+      <Filter>ViewComment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiagramEdit.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAboutBoxGpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDia\CconvWinDia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CDcdFreeLine_StyleSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDedStatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiagramEditDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiagramEditDoctmpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDia\CDlgDiaSaveSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CDlgOuJikokuhyouCsvExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRfEditCmdHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IfProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvJikokuhyouCsv\CconvJikokuhyouCsv.h">
+      <Filter>JikokuhyouCsv</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\CconvCdDedDispProp.h">
+      <Filter>DedRosenFileData</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\CconvCDedRosenFileData.h">
+      <Filter>DedRosenFileData</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\CdDedDispProp.h">
+      <Filter>DedRosenFileData</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\CDedRosenFileData.h">
+      <Filter>DedRosenFileData</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Comment.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_DedRosenFileDataProp.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Dia.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_DiaProp.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Eki.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressya.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Ressyasyubetsu.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_RessyasyubetsuSwap.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_Rosen.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="DedRosenFileData\EditCmd\CRfEditCmd_RosenFileData.h">
+      <Filter>DedRosenFileData\EditCmd</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvFile\CaByteBuffer_string.h">
+      <Filter>ConvFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvFile\CaByteBuffer_vector.h">
+      <Filter>ConvFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvFile\CConvFileDll.h">
+      <Filter>ConvFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConvDedFile\interface\ConvFile2Dll.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConvDedFile\interface\IfByteBuffer.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConvDedFile\interface\IfConvFile.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CconvCentDed.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CdDedJikan.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CdDedJikoku.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CdDedJikokuOrder.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CDedRessyaSoater.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CDedRessyaSoater_Bikou.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CDedRessyaSoater_Ekiatsukai.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CDedRessyaSoater_Ressyasyubetsu.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDed.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedDia.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedDiaCont.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedEki.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedEkiCont.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedEkiJikoku.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRessya.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRessya_EkijikokuModifyOperation2.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRessyaCont.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRessyasyubetsu.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRessyasyubetsuCont.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CentDedRosen.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDed\CRessyaContUnifier.h">
+      <Filter>entDed</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CDedRessyaSoater_Transfer.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrDia.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrEki.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrEkiCont.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrEkijikoku.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrRessya.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrRessyasen.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrRessyasenCont.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CentDedDgrRessyasyubetsu.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="entDgr\CEnumRessyasen.h">
+      <Filter>entDgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\CDlgEkiProp.h">
+      <Filter>ViewEki</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\CEkiDoc.h">
+      <Filter>ViewEki</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\CEkiView.h">
+      <Filter>ViewEki</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\CPropEditUi_Eki.h">
+      <Filter>ViewEki</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\CWndDcdGridEki.h">
+      <Filter>ViewEki</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiXColSpec.h">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiXColSpecCont.h">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiYColSpec.h">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\EkiColSpec\CdEkiYColSpecCont.h">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEki\EkiColSpec\EkiColSpec.h">
+      <Filter>ViewEki\EkiColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CaDcdDiagram_PageSelector.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CCalcCentDedDgrRessyasenOfPoint.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CDcdDiagram.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CDcdDiagram2.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CDcdDiagram_CStopMarkDraw.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CDedDiagramDoc.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\cdeddiagramview.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CDlgDiagramViewProp.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CRessyajouhouDraw.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CRessyasenDraw.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDiagram\CWndDiagram.h">
+      <Filter>ViewDiagram</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CDlgEkijikokuProp.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CDlgJikokuhyouViewProp.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\cdlgmodifyekijikokuoperation2.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CDlgRessyaProp.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CJikokuhyouDoc.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CJikokuhyouView.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CPropEditUI_Ekijikoku.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\CPropEditUi_Ressya.h">
+      <Filter>ViewJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CCellBuilder.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Renzoku.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkState_Ressyahensyu.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWjkStateMachine.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\WndJikokuhyou\CWndJikokuhyou.h">
+      <Filter>ViewJikokuhyou\WndJikokuhyou</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpec.h">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdXColSpecCont.h">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpec.h">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\CdYColSpecCont.h">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewJikokuhyou\JikokuhyouColSpec\JikokuhyouColSpec.h">
+      <Filter>ViewJikokuhyou\JikokuhyouColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="Print\CconvCdPrintPageProp.h">
+      <Filter>Print</Filter>
+    </ClInclude>
+    <ClInclude Include="Print\CDlgPrintPageProp.h">
+      <Filter>Print</Filter>
+    </ClInclude>
+    <ClInclude Include="Print\CdPrintPageProp.h">
+      <Filter>Print</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgDiaList.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgDiaProp.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenCreateSubRosen.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenfileInsert.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_Diagram.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_FontColor.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenFileProp_Rosen.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CDlgRosenView.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRosen\CRosenViewTreeCtrl.h">
+      <Filter>ViewRosen</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CDlgRessyasyubetsuProp.h">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CRessyasyubetsuDoc.h">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CRessyasyubetsuView.h">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CWndDcdGridRessyasyubetsu.h">
+      <Filter>ViewRessyasyubetsu</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpec.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuXColSpecCont.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpec.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\CdRessyasyubetsuYColSpecCont.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\CPropEditUi_Ressyasyubetsu.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewRessyasyubetsu\RessyasyubetsuColSpec\RessyasyubetsuColSpec.h">
+      <Filter>ViewRessyasyubetsu\RessyasyubetsuColSpec</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewComment\CDedCommentDoc.h">
+      <Filter>ViewComment</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewComment\CDedCommentView.h">
+      <Filter>ViewComment</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CDiagramEditDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DiagramEdit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_comment.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_dgr.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_docv.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_eki.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_jikoku.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_diagram.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tree_ros.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DiagramEdit.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DiagramEdit.reg" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.8.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<TITLE>１．[駅時刻]-[直通化]（自動方式）</TITLE>
+<LINK rel="stylesheet" href="../../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H3>１．[駅時刻]-[直通化]（自動方式）</H3>
+<HR>
+<H4>１．通常の使い方</H4>
+<P>　（例では、園部止めの列車 221M と、園部始発の列車 1121M を直通にしています）</P>
+<P><B>１．</B>　終着列車の終着駅にフォーカスセルを設定して、メニュー [駅時刻]-[直通化]
+を選択してください。</P>
+<P><IMG src="jikokuhyouview_direct01.gif" width="442" height="427" border="0"></P>
+<P>　→OuDiaは、フォーカスのある列車を、始発の列車と直通化します。</P>
+<P><IMG src="jikokuhyouview_direct02.gif" width="287" height="418" border="0"></P>
+<P><BR>
+</P>
+<H4>２．支線の分岐駅での特例</H4>
+<P>　支線が分岐する駅でこの機能を使う場合は、以下の特例があります。</P>
+<H5>(1)支線の始発列車と直通化する場合</H5>
+<P>　フォーカスを、途中駅止まりの列車の支線分岐駅に移動させて、メニューコマンド[駅時刻]-[直通化]を選択してください。</P>
+<P><IMG src="jikokuhyouview_direct03.gif" width="431" height="410" border="0"></P>
+<P>　→OuDiaは、フォーカスのある列車を、フォーカスのある駅を始発とする列車と直通化します。</P>
+<P><IMG src="jikokuhyouview_direct04.gif" width="208" height="414" border="0"></P>
+<H5>(2)本線の始発列車と直通化する場合　</H5>
+<P>　フォーカスを、途中駅止まりの列車の、支線の下の分岐駅に移動させて、メニューコマンド[駅時刻]-[直通化]を選択してください。</P>
+<P><IMG src="jikokuhyouview_direct05.gif" width="433" height="416" border="0"></P>
+<P>　→OuDiaは、フォーカスのある列車を、始発の列車と直通化します。</P>
+<P><IMG src="jikokuhyouview_direct06.gif" width="200" height="410" border="0"></P>
+<HR>
+<H5>【補足】</H5>
+<P>［１］フォーカスが、列車の終着駅よりも上の駅にある場合は、この機能は使用できません。</P>
+<P>［２］直通化の対象になる途中駅始発列車<BR>
+<BR>
+　直通化の対象となる途中駅始発列車は、以下の条件を満たした列車です。</P>
+<UL>
+  <LI>　フォーカスのある列車(途中駅止まりの列車)と同じ列車種別
+  <LI>　フォーカスのある駅を始発駅とする列車
+  <LI>　始発駅の発時刻が、終着列車の着時刻から12時間以内
+  <LI>　時刻表ビュー上で、フォーカスのある列車の右側にある列車
+</UL>
+<P>　対象となる列車が複数ある場合は、その中でもっとも左側にある列車を直通化の対象とします。</P>
+<P>［３］　直通化を行った結果作成される新しい列車の、直通化した駅の駅時刻は、以下のようになります。</P>
+<BLOCKQUOTE><B>駅扱：</B>途中駅止まりの列車と同じ。</BLOCKQUOTE>
+<BLOCKQUOTE><B>着時刻：</B></BLOCKQUOTE>
+<BLOCKQUOTE>
+<UL>
+  <LI>　途中駅止まりの列車に着時刻が指定されていた場合：その着時刻
+  <LI>　途中駅止まりの列車に着時刻がなく、発時刻が指定されていた場合：途中駅止まり列車の発時刻
+  <LI>　途中駅止まりの列車に着時刻も発時刻も指定されていない場合：着時刻はなし
+</UL>
+</BLOCKQUOTE>
+<BLOCKQUOTE><B>発時刻：</B></BLOCKQUOTE>
+<BLOCKQUOTE>
+<UL>
+  <LI>　途中駅始発列車に発時刻が指定されていた場合：その発時刻を直通化した列車の発時刻とします。
+  <LI>　途中駅始発列車に発時刻がなく、着時刻が指定されていた場合：途中駅始発列車の着時刻を、新しい列車の発時刻とします。
+  <LI>　途中駅始発列車に着時刻も発時刻も指定されていない場合：発時刻はなし
+</UL>
+</BLOCKQUOTE>
+
+<HR>
+<P><A href="../c02_ekijikoku_paste/ekijikoku_paste.html">次へ</A>　<A href="../chokutsuu.html">戻る</A></P>
+</BODY>
+</HTML>

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.6.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>駅のプロパティ</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>3.8.4.　駅のプロパティ</H2>
+<HR>
+<P>　駅のプロパティを設定できます。</P>
+<P align="center"><IMG src="dlgekiprop_1.gif" width="417" height="206" border="0"><BR>
+</P>
+<P><BR>
+<B>[駅名]</B><BR>
+<BR>
+駅名を指定してください。省略できません。<BR>
+<BR>
+<B>[駅時刻形式]<BR>
+</B><BR>
+これは、『時刻表ビュー』での、この駅の書式を示します。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD width="87">[発時刻]</TD>
+      <TD width="462">この駅は『時刻表ビュー』では、発時刻のみを表示します。一般の途中駅では、これを指定してください。</TD>
+    </TR>
+    <TR>
+      <TD width="87">[発着]</TD>
+      <TD width="462">この駅は『時刻表ビュー』では、着時刻・発時刻の両方を表示します。長時間停車する列車の多い途中駅（主要駅や待避可能駅）では、これを指定します。</TD>
+    </TR>
+    <TR>
+      <TD width="87">[下り着時刻]</TD>
+      <TD width="462">この駅は、下りの『時刻表ビュー』では着時刻のみ表示・上りの『時刻表ビュー』では発時刻のみ表示となります。下り列車の終点・終点に近い途中駅で使います。</TD>
+    </TR>
+    <TR>
+      <TD width="87">[上り着時刻]</TD>
+      <TD width="462">この駅は、上りの『時刻表ビュー』では着時刻のみ表示・下りの『時刻表ビュー』では発時刻のみ表示となります。上り列車の終点・終点に近い途中駅で使います。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><BR>
+<B>[駅規模]</B><BR>
+<BR>
+これは、『ダイヤグラムビュー』での、この駅の書式を指定します。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>[一般駅]</TD>
+      <TD>この駅は、『ダイヤグラムビュー』では細い横線であらわします。</TD>
+    </TR>
+    <TR>
+      <TD>[主要駅]</TD>
+      <TD>この駅は、『ダイヤグラムビュー』では太い横線であらわします。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><B> [境界線]</B></P>
+<P>　チェックをONにすると、下りの『時刻表ビュー』では、この駅の下に横罫線がつきます。上りの『時刻表ビュー』では、この駅の上に横罫線がつきます。</P>
+<P><B>参照：</B>『<A href="../../../c02_usersguide/c01_tutorial/index.html">2.1. 基本的な使い方</A>』の『<A href="../../../c02_usersguide/c01_tutorial/c02_filenew/c03_eki/eki.html">2.1.2.3. 駅の入力</A>』<BR>
+<B>参照：</B>『<A href="../../../c02_usersguide/c03_ressyanyuuryoku/c15_ekijikokukeisikihenkou/ekijikokukeisikihenkou.html">2.3.15.[駅時刻形式]変更時の、列車の駅時刻変更</A>』</P>
+<P><B>[ダイヤグラム列車情報][下り]</B></P>
+<P>ダイヤグラム上で、この駅の位置に下り列車の列車情報(列車番号・列車名・号数)を表示する方法を指定することができます。以下からの選択です。</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>[始発なら表示]</TD>
+      <TD>この駅が始発駅である場合は、列車情報を表示します。既定の設定です。</TD>
+    </TR>
+    <TR>
+      <TD>[常に表示]</TD>
+      <TD>この駅を発車するすべての列車に、列車情報を表示します。</TD>
+    </TR>
+    <TR>
+      <TD>[表示しない]</TD>
+      <TD>この駅の位置には、列車情報を表示しません。<BR>
+      この駅が始発駅である場合、列車情報表示を次の駅に表示します。</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<P><B>[ダイヤグラム列車情報][上り]</B></P>
+<P>ダイヤグラム上で、この駅の位置に上り列車の列車情報(列車番号・列車名・号数)を表示する方法を指定することができます。選択肢は、[ダイヤグラム列車情報][下り]
+と同様です。</P>
+<P><A name="modifyekijikoku" id="modifyekijikoku"></A><B>[駅時刻を駅時刻形式で正規化]</B></P>
+<P>　チェックをONにした状態で[OK]を押すと、すべてのダイヤのすべての列車の駅時刻を、駅時刻形式で正規化します。</P>
+<BLOCKQUOTE>
+<H3>◎<B>駅時刻を駅時刻形式で正規化</B> の詳細</H3>
+<P>　着時刻・発時刻のどちらかしか入力していない駅の時刻が、時刻表ビューになるべく表示されるように変換を行います。</P>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<H4>１．駅時刻形式を[発時刻]に変更した場合</H4>
+</BLOCKQUOTE>
+<BLOCKQUOTE>　「着時刻=あり、発時刻=なし」の駅時刻を、「着時刻=なし、発時刻=あり(それまでの着時刻)」に変更します。</BLOCKQUOTE>
+<BLOCKQUOTE>
+<H4>２．駅時刻形式を[下り着時刻]に変更した場合</H4>
+</BLOCKQUOTE>
+<BLOCKQUOTE>　下り列車の「着時刻=なし、発時刻=あり」の駅時刻を、「着時刻=あり(それまでの発時刻)、発時刻=なし」に変更します。</BLOCKQUOTE>
+<BLOCKQUOTE>
+<H4>３．駅時刻形式を[上り着時刻]に変更した場合</H4>
+</BLOCKQUOTE>
+<BLOCKQUOTE>　上り列車の「着時刻=なし、発時刻=あり」の駅時刻を、「着時刻=あり(それまでの発時刻)、発時刻=なし」に変更します。</BLOCKQUOTE>
+<HR>
+<P><A href="../../index.html">戻る</A><BR>
+</P>
+</BODY>
+</HTML>

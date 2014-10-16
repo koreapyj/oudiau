@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.3.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>支線が分岐する路線を構成</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.13. 支線が分岐する路線を構成</H2>
+<HR>
+<P>　[駅] の [境界線] プロパティと、[駅時刻][駅扱] プロパティの選択肢 [経由なし] を使うことにより、支線が分岐する路線データを構成することができます。<BR>
+　ここでは、近鉄内部・八王子線を例にして、この手順を紹介します。<BR>
+<BR>
+※<CITE>　この路線データは、OuDiaのサンプルファイルとして同梱しています（参照：<A href="../../../c81_sample/sample.html">サンプルデータファイル</A>）</CITE><BR>
+</P>
+<P align="center"><IMG src="jikokuhyouview.jpg" width="499" height="377" border="0"><BR>
+<B><FONT size="-1">　（図：時刻表ビュー）</FONT></B></P>
+<P align="center"><IMG src="diagramview.jpg" width="450" height="312" border="0"><BR>
+<B><FONT size="-1">　（図：ダイヤグラムビュー）</FONT></B></P>
+<P>※　この例で使用している近鉄内部・八王子線の『路線ファイル』は、サンプルとして同梱しています。ファイル名は utsube.oud です。</P>
+<P>
+説明にあたっては、　</P>
+<UL>
+  <LI>本線起点から分岐駅（支線が分岐する駅）までを『区間Ａ』（例では近鉄四日市－日永）
+  <LI>分岐駅から支線の終点までを『区間Ｂ』（例では日永－西日野）
+  <LI>分岐駅から本線の終点までを『区間Ｃ』（例では日永－内部）
+</UL>
+<P>と表記します。</P>
+<P><IMG src="utsubesen.jpg" width="323" height="252" border="2"></P>
+<P> 　</P>
+<H3>（１）駅ビューの設定</H3>
+<P>　駅ビューでは、以下の設定を行ってください。</P>
+<P><B>１．</B>　本線起点（近鉄四日市）から分岐駅（日永）までの駅を入力してください。<BR>
+　属性は何でもかまいません。</P>
+<P><B>２．</B>　分岐駅（日永）では、以下の属性を指定してください。<BR>
+<BR>
+　[駅時刻形式]：[発着]<BR>
+　[駅規模]：[主要駅]<BR>
+　[境界線]：なし（チェックＯＦＦ）</P>
+<P><B>３．</B>　分岐駅（日永）から支線の終点（西日野）までの駅を入力してください。<BR>
+　途中の駅の属性は何でもかまいません。</P>
+<P><B>４．</B>　区間Ｂの終点（西日野）には、以下の属性を指定してください。<BR>
+<BR>
+　[駅時刻形式]：[下り着時刻]<BR>
+　[駅規模]：[主要駅]<BR>
+　[境界線]：あり（チェックＯＮ）</P>
+<P><B>５．</B>　区間Ｂの終点（西日野）の次に、区間Ｃの起点として、分岐駅（日永）を設定してください。<BR>
+　この駅には、以下の属性を指定してください。<BR>
+<BR>
+　[駅時刻形式]：[上り着時刻]<BR>
+　[駅規模]：[主要駅]<BR>
+　[境界線]：なし</P>
+<P>　これ以後は、区間Ｃの各駅を終点（内部）まで入力してください。<BR>
+　属性は、何でもかまいません。</P>
+<P align="center">　<IMG src="ekiview.jpg" width="251" height="249" border="0"><BR>
+<B><FONT size="-1">（図：駅ビュー）</FONT></B></P>
+<H3>（２）時刻表ビュー</H3>
+<P>　ここでは、下りの時刻表ビューをもとに入力方法を説明します。<BR>
+　上りの場合も同様の入力方法になります。</P>
+<H4>１．　支線直通列車（区間Ａ→区間Ｂ）の入力</H4>
+<P>　区間Ａ・区間Ｂの各駅に、駅時刻を入力してください。<BR>
+　区間Ｃの各駅の駅時刻はすべて [駅扱] を [運行なし] としてください。</P>
+<H4>２．　本線通し列車（区間Ａ→区間Ｃ）の入力</H4>
+<P>　区間Ａの起点と途中各駅に駅時刻を入力してください。<BR>
+<BR>
+　分岐駅（日永）では、区間Ｂの起点側（上の『日永』）の[着時刻]に、分岐駅の着時刻を入力してください。[発時刻]は空欄としてください。<BR>
+　分岐駅（日永）の発時刻は、区間Ｃの起点（下の『日永』）の[発時刻]に入力してください。</P>
+<!--
+<P><STRONG>【注意】</STRONG><BR>
+　<STRONG><FONT color="#ff0000">分岐駅の着時刻・発時刻は必ず入力しなくてはなりません。</FONT></STRONG>分岐駅を通過する列車でも、着時刻・発時刻両方の欄に、通過時刻を入力してください。<BR>
+(分岐駅の着時刻・発時刻を空欄にすると、ダイヤグラムビューでは列車線が表示されません)<BR>
+</P>
+-->
+<P>　区間Ｂの途中駅・終点の駅時刻はすべて [駅扱] を [経由なし] としてください。<BR>
+　区間Ｃの各駅に、駅時刻を入力してください。</P>
+<HR>
+<P><A href="../c14_ekikansaisyousec/ekikansaisyousec.html">次へ</A>&nbsp;&nbsp;<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

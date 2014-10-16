@@ -1,0 +1,406 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="この文書の著作権表示">
+		<param name="Local" value="oudia_manual/c00_copyright/copyright.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="1. OuDiaについて">
+		<param name="Local" value="oudia_manual\c01_about\about.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="2. OuDia操作ガイド">
+		<param name="Local" value="oudia_manual\c02_usersguide/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="2.1. 基本的な使い方">
+			<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/index.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.1.1. 路線ファイルを開く">
+				<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c01_fileopen/index.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.1. OuDiaを起動">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c01_fileopen/c01_kidou/kidou.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.2. 路線ファイルを開く">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c01_fileopen/c02_open/open.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.3. 時刻表を表示させる">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c01_fileopen/c03_jikokuhyouview/jikokuhyouview.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.4. ダイヤグラムを表示させる">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c01_fileopen/c04_diagramview/diagramview.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.5. コメントを表示させる">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c01_fileopen\c05_commentview\commentview.html">
+					<param name="URL" value="oudia_manual\c02_usersguide\c01_tutorial\c01_fileopen\c05_commentview\commentview.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.6. 時刻表を印刷する">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c01_fileopen\c06_jikokuhyouprint\jikokuhyouprint.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.1.7. ダイヤグラムを印刷する">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c01_fileopen\c07_diagramprint\diagramprint.html">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.1.2. 路線ファイルを新規作成">
+				<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/index.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.1. OuDiaデータを新規作成">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c01_filenew/filenew.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.2. 路線名を設定">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c02_rosenmei/rosenmei.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.3 駅の入力">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c03_eki/eki.html">
+					</OBJECT>
+				<UL>
+					<LI> <OBJECT type="text/sitemap">
+						<param name="Name" value="※『グリッド形式ビュー』について">
+						<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c03_eki/eki.html#grid">
+						</OBJECT>
+				</UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.4 列車種別の入力">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c04_ressyasyubetsu/ressyasyubetsu.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.5 ダイヤを新規作成">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c05_dia/dia.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.6　列車の入力">
+					<param name="Local" value="oudia_manual\c02_usersguide/c01_tutorial/c02_filenew/c06_ressya/ressya.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.7. 列車の入力についての補足">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c02_filenew\c07_ressya_chuui\ressyanyuuryoku_chuui.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.8. コメントの入力">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c02_filenew\c08_comment\comment.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2.1.2.9. 路線ファイルにデータを保存">
+					<param name="Local" value="oudia_manual\c02_usersguide\c01_tutorial\c02_filenew\c09_filesave\filesave.html">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="2.2. WinDIA ファイルの読み込み・保存">
+			<param name="Local" value="oudia_manual\c02_usersguide/c02_windia/windia.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.2.1. WinDIA形式ファイルの読み込み">
+				<param name="Local" value="oudia_manual\c02_usersguide/c02_windia/windia.html#windia_open">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.2.2. WinDIA形式のファイルに保存">
+				<param name="Local" value="oudia_manual\c02_usersguide/c02_windia/windia.html#windia_save">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="2.3. 列車のいろいろな入力方法">
+			<param name="Local" value="oudia_manual\c02_usersguide/c03_ressyanyuuryoku/index.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.1. [駅時刻]ダイアログの便利な使い方">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c01_ekijikokudlg\ekijikokudlg.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.2. 列車の駅時刻の繰上げ・繰下げ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c02_kuriage\kuriage.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.3. 連続入力モード ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c03_renzokunyuuryoku\renzokunyuuryoku.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.4. 駅時刻を挿入／削除（駅時刻を上下に移動） ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c04_ekijikokusounyuu\ekijikokusounyuu.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.5. フォーカス移動モード">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c05_focusidou\focusidou.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.6. [編集]メニューの基本（列車のコピー・ペースト） ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c06_hensyumenu\hensyumenu.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.7. 複数列車の切り取り・コピー・貼り付け・消去 ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c07_fukusuuressya_kiritori\fukusuuressya_kiritori.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.8. パターンダイヤの連続貼り付け（貼り付け移動量） ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c08_patterndia\patterndia.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.9. ２本の列車を１本の直通列車にする">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c09_chokutsuu\chokutsuu.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="1.[駅時刻]-[直通化]（自動方式） ">
+					<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c09_chokutsuu\c01_direct\direct.html">
+					<param name="URL" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c09_chokutsuu\c01_direct\direct.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="2. [編集]-[時刻のみ貼り付け] (手動方式) ">
+					<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c09_chokutsuu\c02_ekijikoku_paste\ekijikoku_paste.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="3. [時刻表]-[列車番号で一本化]（全自動方式）">
+					<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c09_chokutsuu\c03_unify\jikokuhyouview_unify.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.10. 列車の運転区間を途中で打ち切る ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c10_uchikiri\uchikiri.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.11. 列車の駅時刻の連続１分修正 ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c11_renzoku1syuusei\renzoku1syuusei.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.12. 多数の列車の駅時刻を変更（『駅時刻変更』機能） ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c12_modifyekijikokuoperation\modifyekijikokuoperation.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.13. 支線が分岐する路線を構成 ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c13_sisen\sisen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.14. 駅間最小所要時間・駅間最小所要時間列車">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c14_ekikansaisyousec\ekikansaisyousec.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.15 [駅時刻形式]変更時の、列車の駅時刻変更">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c15_ekijikokukeisikihenkou\ekijikokukeisikihenkou.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.16. 時刻表CSVファイルへのエクスポート">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c16_jikokuhyoucsv\jikokuhyoucsv.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.17. 路線ファイルの組入れ">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c17_rosen_add\rosen_add.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.18. 路線ファイルの切り出し">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c18_createsubrosen\createsubrosen.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.3.19. 時刻表ビューでの列車の並べ替え">
+				<param name="Local" value="oudia_manual\c02_usersguide\c03_ressyanyuuryoku\c19_jikokuhyousort\jikokuhyousort.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="2.4. いろいろな設定項目">
+			<param name="Local" value="oudia_manual\c02_usersguide/c04_settei/index.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.4.1. 駅名欄の幅">
+				<param name="Local" value="oudia_manual\c02_usersguide/c04_settei/index.html#EkimeiLength">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.4.2. 時刻表の列車の幅">
+				<param name="Local" value="oudia_manual\c02_usersguide/c04_settei/index.html#JikokuhyouRessyaWidth">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.4.3. ダイヤグラム起点時刻">
+				<param name="Local" value="oudia_manual\c02_usersguide\c04_settei\index.html#DiagramKitenJikoku">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.4.4. ダイヤグラムの既定の駅間幅">
+				<param name="Local" value="oudia_manual\c02_usersguide\c04_settei\index.html#DiagramDgrYZahyouKyoriDefault">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="2.4.5.ダイヤグラムビューでの停車駅明示">
+				<param name="Local" value="oudia_manual\c02_usersguide\c04_settei\index.html#StopMark">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="3. リファレンス">
+		<param name="Local" value="oudia_manual\c03_reference/index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.1.　メインウインドウ">
+			<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/index.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.1.1.　メニューコマンド">
+				<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/index.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="3.1.1.1. [ファイル]">
+					<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/menu_file.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="3.1.1.2 [表示]">
+					<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/menu_hyouji.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="3.1.1.3　[ウインドウ]">
+					<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/menu_window.html">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="3.1.1.4 [ヘルプ]">
+					<param name="Local" value="oudia_manual\c03_reference/c01_mainwindow/menu_help.html">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.2. 路線ビュー">
+			<param name="Local" value="oudia_manual\c03_reference/c02_rosenview/rosenview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.3. 駅ビュー">
+			<param name="Local" value="oudia_manual\c03_reference/c03_ekiview/ekiview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.4. 列車種別ビュー">
+			<param name="Local" value="oudia_manual\c03_reference/c04_ressyasyubetsuview/ressyasyubetsuview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.5.　時刻表ビュー">
+			<param name="Local" value="oudia_manual\c03_reference/c05_jikokuhyouview/jikokuhyouview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.6. ダイヤグラムビュー">
+			<param name="Local" value="oudia_manual\c03_reference/c06_diagramview/diagramview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.7. コメントビュー">
+			<param name="Local" value="oudia_manual\c03_reference\c07_commentview\commentview.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.8. ダイアログ">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.1. 印刷ページ設定">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c01_dlgprintpageprop/dlgprintpageprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.2.　路線ファイルのプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c02_dlgrosenprop/dlgrosenprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.3. 保存するダイヤの選択">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c03_dlgdiasaveselect/dlgdiasaveselect.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.4.　駅のプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c04_dlgekiprop/dlgekiprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.5.　列車種別のプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c05_dlgressyasyubetsu/dlgressyasyubetsu.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.6.　ダイヤ一覧">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c06_dlgdialist/dlgdialist.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.7.　ダイヤのプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c07_dlgdiaprop/dlgdiaprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.8.　列車のプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c08_dlgressyaprop/dlgressyaprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.9.　駅時刻">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c09_dlgekijikoku/dlgekijikoku.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.10.　時刻表ビューのプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c10_dlgjikokuhyouprop/dlgjikokuhyouprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.11.　ダイヤグラムビューのプロパティ">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c11_dlgdiagramviewprop/dlgdiagramviewprop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.12. 駅時刻変更">
+				<param name="Local" value="oudia_manual\c03_reference/c08_dialog/c12_dlgmodifyekijikokuoperation/dlgmodifyekijikokuoperation.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.13. CSVへエクスポート">
+				<param name="Local" value="oudia_manual\c03_reference\c08_dialog\c13_cdlgoujikokuhyoucsvexport\cdlgoujikokuhyoucsvexport_00.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.14. 路線ファイルの組入れ">
+				<param name="Local" value="oudia_manual\c03_reference\c08_dialog\c14_cdlgrosenfileinsert\cdlgrosenfileinsert_00.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="3.8.15. 路線ファイルの切り出し">
+				<param name="Local" value="oudia_manual\c03_reference\c08_dialog\c15_cdlgrosencreatesubrosen\cdlgrosencreatesubrosen_00.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3.9.グリッド形式ビュー">
+			<param name="Local" value="oudia_manual\c03_reference\c09_gridview\gridview.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="サンプルデータファイル">
+		<param name="Local" value="oudia_manual\c81_sample\sample.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="利用許諾契約書">
+		<param name="Local" value="oudia_manual\c91_siyoujouken\riyoukyodakukoku.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GNU General Public License">
+			<param name="Local" value="oudia_manual\c91_siyoujouken\gpl-3.0.txt">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GNU 一般公衆利用許諾契約書(GNU General Public License) 日本語訳">
+			<param name="Local" value="oudia_manual\c91_siyoujouken\gpl-3.0.ja.txt">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GNU Free Documentation License">
+			<param name="Local" value="oudia_manual\c91_siyoujouken\fdl-1.3.txt">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="GNU フリー文書利用許諾契約書(GNU Free Documentation License)日本語訳 ">
+			<param name="Local" value="oudia_manual\c91_siyoujouken\fdl-1.2.ja.txt">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OuDia バージョン履歴">
+		<param name="Local" value="oudia_manual\c92_change\change.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

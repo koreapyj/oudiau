@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 6.5.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>列車の駅時刻の連続１分修正</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.11. 列車の駅時刻の連続１分修正</H2>
+<P>　時刻表ビューの駅時刻を1分単位で素早く修正する機能です。</P>
+<P>　この機能は、１分の＋－が散在している列車時刻を修正する場合を想定して用意したものです。<BR>　たとえば、同じ運転区間に同じ停車駅・ほぼ同じ所要時間の２本以上の列車を入力する場合、<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<B>１．</B>　１本目は全駅の時刻を手作業で入力する（連続入力モードなどで）<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;<B>２．</B>　２本目以降は１本目をコピー・ペーストしたうえで、始発駅の時刻を繰下げる<BR>
+<BR>
+という手順で入力したくなります。<BR>
+　ところが、実際に上記のように２本目を配置してみると、いくつかの駅に１分の誤差が生じている場合があります。<BR>
+　このような列車に対しては、この機能を使うと、散在する１分の誤差を素早く修正することができます。</P>
+<P>　『列車の駅時刻の連続1分修正』機能は、以下のメニューコマンドにより構成されます。</P>
+<UL>
+  <LI>[駅時刻]-[連続1分修正]-[-1分し次へ]
+  <LI>[駅時刻]-[連続1分修正]-[-1分]
+  <LI>[駅時刻]-[連続1分修正]-[フォーカスを次へ]
+  <LI>[駅時刻]-[連続1分修正]-[フォーカスを前へ]
+  <LI>[駅時刻]-[連続1分修正]-[+1分し次へ]
+  <LI>[駅時刻]-[連続1分修正]-[+1分]
+</UL>
+<P>　時刻表ビューの駅時刻にフォーカスがある状態で、メニューコマンド<B> [駅時刻]－[連続1分修正]-[-1分し次へ]</B> を選択すると、OuDia はフォーカスのある駅時刻と、それ以後の駅時刻を１分繰上げて、フォーカスを次の位置へ移動させます。<BR>
+　同様に、<B> [駅時刻]－[連続1分修正]-[+1分し次へ]</B> を選択すると、フォーカス位置以後の駅時刻を１分繰下げて、フォーカスを次の位置に移動します。<BR>
+　また、<B>[駅時刻]－[連続1分修正]-[フォーカスを次へ]</B> を選択すると、単にフォーカスを次の位置に移動します。<BR>
+　いずれの場合も、フォーカスの移動方向は、『フォーカス移動モード』に従います。</P>
+<P><IMG src="../../../kaisoku.jpg" width="32" height="24" border="0" align="left">　この機能は事実上、ショートカットキーを使うことを前提としています。<BR>
+　メニューコマンドの代わりに、以下のショートカットキーを押しても同じ効果があります。<BR clear="left">
+</P>
+<TABLE border="1">
+  <TBODY>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[-1分し次へ]</TD>
+      <TD>[Ctrl]＋[J]</TD>
+    </TR>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[-1分]</TD>
+      <TD>[Ctrl]＋[Shift]+[J]</TD>
+    </TR>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[フォーカスを次へ]</TD>
+      <TD>[Ctrl]＋[K]</TD>
+    </TR>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[フォーカスを前へ]</TD>
+      <TD>[Ctrl]＋[Shift]+[K]</TD>
+    </TR>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[+1分し次へ]</TD>
+      <TD>[Ctrl]＋[L]</TD>
+    </TR>
+    <TR>
+      <TD>[駅時刻]－[連続1分修正]-[-1分]</TD>
+      <TD>[Ctrl]＋[Shift]+[L]</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<H3>【例】</H3>
+<P>　ここでは、以下の２本の列車を入力する場合を例に、連続１分修正の使い方を説明します。</P>
+<P><IMG src="jikokuhyouview_10.gif" width="170" height="271" border="0"></P>
+<P>（１）　『フォーカス移動モード』は、『フォーカス下移動モード』に設定しておきます。</P>
+<P>（２）　１本目の列車を入力します。</P>
+<P><BR>
+<IMG src="jikokuhyouview_11.gif" width="204" height="265" border="0"></P>
+<P>（３）　１本目の列車をコピー・ペーストし、２本目の列車の始発駅の時刻を修正します。<BR>
+　※　この段階では、２本目の列車の実際のダイヤとコピー・ペーストした結果との間には、いくつかの駅において１分の誤差が生じています。</P>
+<P><IMG src="jikokuhyouview_12.gif" width="270" height="267" border="0"></P>
+<P><BR>
+</P>
+<P>（４）　コピー・ペーストした列車の始発駅の次の駅にフォーカスを合わせてから、各駅の１分の誤差を、<B> [-1分し次へ] </B>・<B>[フォーカスを次へ] </B>・<B>[+1分し次へ]</B> の３つのコマンドを使って順に修正します。<BR>
+　※　このとき、 <B>[Ctrl]＋[J]</B>・<B>[Ctrl]＋[K]</B>・<B>[Ctrl]＋[L]</B> キーを使うと、素早く修正できます。<BR>
+<IMG src="jikokuhyouview_13.gif" width="275" height="266" border="0"><BR>
+</P>
+<P>(5)　2分以上の誤差を修正する場合は、<B>[駅時刻]-[-1分]</B>・<B>[駅時刻]-[+1分]</B>を併用することにより、誤差を素早く修正できます。例えば、駅時刻を2分繰下げる場合は、<B>[駅時刻]-[+1分]</B>・<B>[駅時刻]-[+1分して次へ]</B>の順に操作することにより、最も早く修正を行うことができます。<BR>
+　また、<B>[駅時刻]-[フォーカスを前へ]</B>を利用すると、前の駅の修正を訂正することができます。</P>
+<HR>
+<P><A href="../c12_modifyekijikokuoperation/modifyekijikokuoperation.html">次へ</A> &nbsp;<A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

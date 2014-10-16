@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+ This is part of OuDia User's Manual.
+ Copyright (C) 2006-2014  take-okm.
+ See the file c00_copyright\copyright.html for copying conditions.
+(訳:
+ このファイルは OuDuia ユーザーズマニュアルの一部です。
+ Copyright (C) 2006-2014  take-okm.
+ 複製に関する諸条件については、c00_copyright\copyright.html を参照してくださ
+い。
+)
+-->
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 6.5.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>[駅時刻形式]変更時の、列車の駅時刻変更</TITLE>
+<LINK rel="stylesheet" href="../../../oudia01.css" type="text/css">
+</HEAD>
+<BODY>
+<H2>2.3.15 [駅時刻形式]変更時の、列車の駅時刻変更</H2>
+<HR>
+<P>　例えば、駅時刻形式が [発着] の駅を終着駅とする列車がある場合(この例では亀岡)、</P>
+<P><IMG src="jikokuhyouview00.gif" width="203" height="327" border="0"></P>
+<P>　[駅のプロパティ]ダイアログで、その駅の駅時刻形式を [発時刻] に変更すると、そのままでは時刻表ビューの終着駅には時刻が表示されません。<BR>
+　これを避けるため、OuDia はこのケースでは、 [着時刻] を [発時刻] に変更します。</P>
+<P><IMG src="jikokuhyouview02.gif" width="203" height="308" border="0"></P>
+<P><BR>
+<BR>
+　「[駅時刻形式]変更時の、列車の駅時刻変更」機能は、以下の規則に従って、全列車の駅時刻を変更します。</P>
+<H3>１．[駅時刻形式]を [発時刻] に変更した場合</H3>
+<P>　駅時刻形式を [発時刻] に変更した場合、変更した駅を始発駅・終着駅とする列車の駅時刻が</P>
+<UL>
+  <LI>着時刻＝時刻あり
+  <LI>発時刻＝時刻なし
+</UL>
+<P>であれば、その駅の駅時刻を</P>
+<UL>
+  <LI>着時刻＝時刻なし
+  <LI>発時刻＝時刻あり（それまでの着時刻）
+</UL>
+<P>に変更します。</P>
+<H3>２．[駅時刻形式]を[発着]に変更した場合</H3>
+<P>　駅時刻形式を[発着]に変更した場合、変更した駅を終着駅とする列車の駅時刻が</P>
+<UL>
+  <LI>着時刻＝時刻なし
+  <LI>発時刻＝時刻あり
+</UL>
+<P>であれば、その駅の駅時刻を</P>
+<UL>
+  <LI>着時刻＝時刻あり（それまでの発時刻）
+  <LI>発時刻＝時刻なし
+</UL>
+<P>に変更します。<BR>
+　また、変更した駅を始発駅とする列車の駅時刻が</P>
+<UL>
+  <LI>着時刻＝時刻あり
+  <LI>発時刻＝時刻なし
+</UL>
+<P>であれば、その駅の駅時刻を</P>
+<UL>
+  <LI>着時刻＝時刻なし
+  <LI>発時刻＝時刻あり（それまでの着時刻）
+</UL>
+<P>に変更します。</P>
+<H3>３．駅時刻形式を [下り着時刻]・[上り着時刻]に変更した場合</H3>
+<P>　駅時刻形式を [下り着時刻]に変更した時の下り列車・[上り着時刻]に変更した時の上り列車では、変更した駅を始発駅・終着駅とする列車の駅時刻が</P>
+<UL>
+  <LI>着時刻＝時刻なし
+  <LI>発時刻＝時刻あり
+</UL>
+<P>であれば、その駅の駅時刻を<BR>
+</P>
+<UL>
+  <LI>着時刻＝時刻あり（それまでの発時刻）
+  <LI>発時刻＝時刻なし
+</UL>
+<P>に変更します。</P>
+<HR>
+<P><A href="../c16_jikokuhyoucsv/jikokuhyoucsv.html">次へ</A> <A href="../index.html">戻る</A></P>
+</BODY>
+</HTML>

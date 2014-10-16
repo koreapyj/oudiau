@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Pos">
+      <UniqueIdentifier>{9aaee89a-53ad-4885-844a-840dc99d2ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DcDrawProp">
+      <UniqueIdentifier>{fd7771bc-9bf1-4bda-a116-23a7fef4f553}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CconvContentPosToTarget.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CconvContentPosToTargetXy.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CconvDcdPosOnZone_DcdZone.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CconvDcdPosOnZone_PosOrgAndRate.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CconvDcdPosOnZoneXy.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="Pos\CLineFunc.cpp">
+      <Filter>Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="DcDrawProp\CconvDcDrawProp.cpp">
+      <Filter>DcDrawProp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvContentPosToTarget.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvContentPosToTargetXy.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvDcdPosOnZone.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvDcdPosOnZone_DcdZone.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvDcdPosOnZone_PosOrgAndRate.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CconvDcdPosOnZoneXy.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CdDcdPosXy.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CdDcdSizeXy.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CdDcdZone.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CdDcdZoneXy.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\CLineFunc.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos\DcdType.h">
+      <Filter>Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CconvDcDrawProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdBrushProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdColorProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\cddcdfreelineprop.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdDrawTextFormat.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdDrawTextProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdFontProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+    <ClInclude Include="DcDrawProp\CdPenProp.h">
+      <Filter>DcDrawProp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
