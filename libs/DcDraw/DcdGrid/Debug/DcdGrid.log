@@ -1,5 +1,10 @@
-﻿빌드 시작: 2014-10-17 13:44:32
+﻿빌드 시작: 2014-10-17 16:21:25
+     1>5 노드의 "C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\DcdGrid.vcxproj" 프로젝트(Build 대상)입니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\DiagramEdit\Debug\DcdGrid.lib) does not match the Library's OutputFile property value (C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\Debug\DcdGrid.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>Lib:
+         DcdGrid.vcxproj -> C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\DiagramEdit\Debug\DcdGrid.lib
+     1>"C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\DcdGrid.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.01
+경과 시간: 00:00:00.04

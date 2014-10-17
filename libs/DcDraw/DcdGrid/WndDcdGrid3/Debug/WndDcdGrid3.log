@@ -1,5 +1,9 @@
-﻿빌드 시작: 2014-10-17 13:44:32
+﻿빌드 시작: 2014-10-17 16:21:26
+     1>2 노드의 "C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\WndDcdGrid3\WndDcdGrid3.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Lib:
+         WndDcdGrid3.vcxproj -> C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\WndDcdGrid3\.\Debug\WndDcdGrid3.lib
+     1>"C:\Users\korea_000\Documents\Visual Studio 2012\Projects\oudiau\libs\DcDraw\DcdGrid\WndDcdGrid3\WndDcdGrid3.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.02
+경과 시간: 00:00:00.04
